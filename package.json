@@ -1,0 +1,20 @@
+{
+  "name": "thehansen-filters",
+  "version": "1.0.0",
+  "description": "**Warning - Private filter list. No support provided.**\r ## Recommended filters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafa1231518/thehansen-filters.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafa1231518/thehansen-filters/issues"
+  },
+  "homepage": "https://github.com/rafa1231518/thehansen-filters#readme"
+}

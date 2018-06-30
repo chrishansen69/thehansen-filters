@@ -1,0 +1,38 @@
+environment:
+  access_token:
+    secure: qNMRA5boyCslJ9JgiqjpLdHd0NvhQVWcjJx3ZMrcgrDz6DNFJnDsV7w9IZuhqwYZ
+
+before_build:
+  # Get the latest stable version of Node.js or io.js
+  - ps: Install-Product node stable
+  # install modules
+  - npm install
+  
+# Post-install test scripts.
+test_script:
+  # Output useful info for debugging.
+  - node --version
+  - npm --version
+
+build_script: 
+  - node index.js
+
+skip_commits:
+  # Regex for matching commit message
+  message: /Automated Appveyor build/
+  # Commit author's username, name, email or regexp maching one of these.
+  author: Appveyor Automated Build
+
+# Note: AppVeyor checkout only the last commit and not the entire branch. So you may have to checkout the wanted branch: git checkout master
+on_success:
+ #- cmd: SET PATH=%tempath%
+ - git config --global credential.helper store
+ - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+ - git config --global user.email "bbbbbbenes@outlook.com.br"
+ - git config --global user.name "Appveyor Automated Build"
+ - cmd: For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c-%%a-%%b)
+ - cmd: For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a:%%b)
+ - git checkout master
+ - git add Filters.txt
+ - git commit -m "Automated Appveyor build at %mydate%, %mytime% [skip ci]"
+ - git push origin master

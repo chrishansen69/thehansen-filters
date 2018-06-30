@@ -1,0 +1,445 @@
+! Title: thehansen old ublock rules
+www.se7ensins.com###post-9994545.message.offline.odd > .messageUserInfo > .messageUserBlock > .avatarHolder
+www.se7ensins.com###post-9994545.message.offline.odd > .innerContainer > .messageInfo.primaryContent > .baseHtml.signature.messageText.ugc
+adrenaline.uol.com.br###Header.hide-on-mobile > nav > .main-nav.fixed-nav
+www.mpgh.net###post_9976855.postbitlegacy.postbitim.postcontainer.old > .postdetails > .postbody > div > .after_content > .signature.restore
+www.mpgh.net###post_9981916.postbitlegacy.postbitim.postcontainer.old > .postdetails > .userinfo > .imlinks
+www.mpgh.net###posts.posts > li > div > .go
+||www.mpgh.net/forum/mpghv2/statusicon/
+www.csplugin.com###page-nav.page-nav
+www.csplugin.com###comments-template
+www.csplugin.com###Blog1.widget.Blog > .blog-posts.hfeed > .post.hentry > .single-entry-summary > center > iframe
+www.mpgh.net###navbar.navbar
+www.mpgh.net##m > .outercontainer > .innercontainer > .above_body > div > .navi3
+www.mpgh.net###thread_controls.thread_controls.toolsmenu > div
+www.mpgh.net###post_9983356.postbitlegacy.postbitim.postcontainer.old > .postdetails > .postbody > div > .after_content > .signature.restore
+konghack.com###pc_78849.panel.panel-info > .panel-body > table > tbody > tr > td > div > .TheSigContent
+thekoalition.com###singlepost-main.col-md-8 > .singlepost.col-md-12 > .wp-caption.aligncenter > .wp-caption-text
+thekoalition.com###sidebar.col-md-4
+thekoalition.com##.navbar.navbar-inverse
+www.tf2outpost.com###modules > .module.header_box
+www.tf2outpost.com###sidebar > .module.block_box
+www.tf2outpost.com##.panel > .ad > .module.sidebar_box
+www.tf2outpost.com##footer
+www.tf2outpost.com###modules > .module.footer_box
+realitygaming.fr###loginBar
+realitygaming.fr###scrollAuTop
+realitygaming.fr##footer
+realitygaming.fr###content.thread_view > .pageWidth > .pageContent > .breadBoxBottom
+realitygaming.fr###content.thread_view > .pageWidth > .pageContent > .sharePage.sharePageBottom
+realitygaming.fr###post-4599087.message > .messageUserInfo > .messageUserBlock > .contenuGamingUserInfo
+realitygaming.fr##.messageUserInfo > .messageUserBlock > .contenuGamingUserInfo
+realitygaming.fr###pageDescription.muted
+realitygaming.fr###XenForoUniq2.Menu.JsOnly.tabMenu.membersTabLinks
+realitygaming.fr###XenForoUniq1.Menu.JsOnly.tabMenu.teamsTabLinks
+realitygaming.fr###XenForoUniq0.Menu.JsOnly.tabMenu.xengalleryTabLinks
+realitygaming.fr###XenForoUniq3.Menu.JsOnly.tabMenu.aideTabLinks
+steamcommunity.com##.emoticon
+www.xbox360iso.com###notices > .tborder > tbody > tr
+www.xbox360iso.com##div > .smallfont
+!www.xbox360iso.com##.donatorlist
+www.xbox360iso.com###isobar
+www.xbox360iso.com###___plusone_0
+www.pcworld.com###toaster
+pt.scribd.com###doc_toolbar.doc_toolbar.has_notification.is_stuck
+pt.scribd.com##.downloader_wrapper
+pt.scribd.com###global_header.global_header.collapsed > .sticky_header.is_stuck > .header_lower
+www.vagalume.com.br###retroTeaser
+www.vagalume.com.br###share
+www.vagalume.com.br###breadcrumb
+www.vagalume.com.br###loginAbs
+www.vagalume.com.br###followUs
+www.vagalume.com.br###artistNav > .varbuttons > .btn.addData2
+www.vagalume.com.br###artistMenu > li > .ringtone
+www.vagalume.com.br###comments.comments
+www.vagalume.com.br###relHotspot
+www.vagalume.com.br###relTopLyrics
+www.vagalume.com.br###relAds
+www.vagalume.com.br###vagalume.dyncletra > .doubleColumn.right
+www.vagalume.com.br###relNews
+www.vagalume.com.br###content.frank > div > .sharing.center
+www.vagalume.com.br###letra_728x90.ad
+www.vagalume.com.br###rodape.spot
+www.vagalume.com.br###vgInfo
+www.vagalume.com.br###goTop
+www.vagalume.com.br###ringtone
+www.vagalume.com.br###navbar > li > a[href="/top100/"]
+www.vagalume.com.br###navbar > .mSelected
+thehill.com###header > .floating-block-active
+small-games.info###top-tabs.clearfix
+small-games.info###r-sidebar > .w.konkurs
+small-games.info###sorting.w.clearfix
+gtaforums.com###cookieChoiceInfo
+||gtaforums.com/public/style_extra/team_icons/busted.gif
+gtaforums.com###lhsShow[href="#"]
+gtaforums.com##.post_wrap > .post_body > .row2 > .post_id.right.ipsType_small.desc.blend_links
+www.morfix.co.il###wordquestion
+doscollection.com##.et_social_flyin
+doscollection.com##.et_social_sidebar_networks
+doscollection.com###text-11.widget.sidebar-block.widget_text
+doscollection.com###footer
+!doscollection.com##.et_social_media_wrapper
+!www.se7ensins.com##.JsOnly.tabMenu.forumsTabLinks
+!www.se7ensins.com##.tabMenu.micro-cartTabLinks
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.micro-cart.Popup.PopupControl.PopupContainerControl.PopupOpen > .navLink.NoPopupGadget[href="http://www.se7ensins.com/shop/"]
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.gamification.Popup.PopupControl.PopupContainerControl.PopupOpen
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.members.Popup.PopupControl.PopupContainerControl.PopupOpen
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.nodetab349.PopupClosed
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.nodetab351.Popup.PopupControl.PopupContainerControl.PopupOpen
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.micro-cart.Popup.PopupControl.PopupClosed.PopupContainerControl
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.gamification.Popup.PopupControl.PopupClosed.PopupContainerControl
+!www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.nodetab351.Popup.PopupControl.PopupClosed.PopupContainerControl
+www.se7ensins.com##.category_toggle_container
+www.se7ensins.com##.nodeControls
+||hugelolcdn.com/i/104176.gif
+www.se7ensins.com##.unreadLink
+www.se7ensins.com##.titleText > .iconKey > .sticky
+www.se7ensins.com###content.forum_view > .pageWidth > .pageContent > .moderators
+www.se7ensins.com###moderatorBar
+www.se7ensins.com###Notices.PanelScroller
+www.se7ensins.com###navigation.pageWidth.withSearch > .pageContent > nav > .navTabs > .navTabContainer > .publicTabs > .navTab.forums.selected > .tabLinks.forumsTabLinks > .secondaryContent.blockLinksList > li
+www.wired.com###post-nav.fixed.expanded.visible
+!@@||imgur.com^
+@@||apis.google.com/u/0/wm/4/_/widget/render/comments?
+www.twitch.tv##.overlay_info.views
+www.twitch.tv##.boxart
+||gtaforums.com/public/style_images/GTAForums_2014/star_off.png
+gtaforums.com###gtaf_centerContent > div > div > .gtaf_top_ipsBox_withphoto > .rating.ipsType_smaller
+gtaforums.com###gtaf_centerContent > .gtaf_container > div > .maintitle.gtaf_compactMainTitle
+gtaforums.com###gtaf_centerContent > .clear.clearfix.left
+gtaforums.com###topic_stats.statistics.clear.clearfix
+gtaforums.com###footer_utilities
+gtaforums.com###gtaf_centerContent > .gtaf_container > .topic_controls.clear.ipsPad_top_bottom_half > .ipsPad_top_slimmer.left
+gtaforums.com##.footerBorder
+!||media.gtanet.com/gtaforums/themes/2014/images/headerBottomLogo.png
+www.wired.com###AMS_WIR_FOOTER_NAVBAR_POPUP.ecom-placement
+www.wired.com###AMS_WIR_HOMEPAGE_RIGHTNAV.ecom-placement
+www.wired.com###global-nav
+www.wired.com###wired-video.scrape.commentary
+!www.wired.com###sidebar
+theralphretort.com###masthead.site-header > .header-main
+gtaforums.com##.__topic_preview
+gtaforums.com##.col_f_content > .ipsBadge.ipsBadge_Pinned
+forum.ragezone.com###wgo.collapse.wgo_block.block
+forum.ragezone.com###content > .tcat > .tcatLeft > .tcatRight.foruminfo.L1.collapse
+forum.ragezone.com###header.floatcontainer.doc_header > .RZ_BOX1
+||clients.ragezone.com/out.php/display/show_single
+forum.ragezone.com###fb_headerbox
+forum.ragezone.com###footerMain
+forum.ragezone.com###thread_info.thread_info.block
+forum.ragezone.com###qr_defaultcontainer.floatcontainer.qrcontainer
+forum.ragezone.com##.repimg
+www.cracked.com##.mainFrame.noMarginTopWithContent > .mainFrameModule.last > .rightColumn > .widget-fb-recommendations
+www.cracked.com##.mainFrame.noMarginTopWithContent > .mainFrameModule.last > .rightColumn > .dropShadowBottomCurvedModule.widget-publication-list.follow-me
+www.naosalvo.com.br###header-top.large-12.medium-12.small-12.left.show-for-medium-up > .row.relative
+www.naosalvo.com.br##.off-canvas-wrap.\32 53-links-da-semana > .inner-wrap > .show-for-large-up
+www.naosalvo.com.br###submenu-categories-bar.large-12.medium-12.small-12.left
+www.naosalvo.com.br###nav-box-right-main
+www.naosalvo.com.br###button-up.hide-for-small-only[href="#"]
+www.naosalvo.com.br##.news-label-menu
+www.naosalvo.com.br##.inner-wrap > .show-for-large-up
+www.naosalvo.com.br##.categories-and-coments-post.left
+www.naosalvo.com.br##.sociais-post
+www.naosalvo.com.br##.ns-buzz-bar-post-main.relative
+www.naosalvo.com.br##.footer-post
+www.naosalvo.com.br###label-coments-facebook-single
+www.naosalvo.com.br###similars-posts
+www.naosalvo.com.br###nav-box-left-main
+www.naosalvo.com.br###single-full-banner
+www.naosalvo.com.br###label-never-be
+www.naosalvo.com.br###label-wise
+www.naosalvo.com.br###next-previous-sinlge
+!www.youtube.com##.yt-uix-button.yt-uix-button-size-small.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.addto-button.video-actions.spf-nolink.hide-until-delayloaded.yt-uix-tooltip
+www.today.com###header.today-marquee
+diariocatarinense.clicrbs.com.br###socialNetworks
+diariocatarinense.clicrbs.com.br###clic-barra-2010
+||www.blogger.com/navbar.g
+www.drtuber.com##.wrapper > .menu > .ch-topmenu > .x_2.hover > ul
+www.360haven.com##.rank
+www.360haven.com##.postdetails > .userinfo > .eti_postbit
+www.360haven.com##.posthead > .nodecontrols
+www.360haven.com###navbar_notice_62.restore
+www.360haven.com##.postfoot > .textcontrols.floatcontainer
+www.360haven.com##.bottomBar > .bottomBarLeft > .bottomBarRight
+www.360haven.com##.notranslate > .postbody > .postrow > .togList
+www.360haven.com##.userinfo_extra
+www.360haven.com##.footer1
+www.360haven.com###footerMain
+www.360haven.com###thread_info.thread_info.block
+www.360haven.com##.navlinks
+www.360haven.com###notices.notices
+www.360haven.com##.welcomelink
+||www.360haven.com/forums/images/styles/DarkCore/misc/paperclip.png
+www.360haven.com##.forumactionlinks.td
+||www.360haven.com/forums/images/icons/
+www.360haven.com###block_newthreads_31.blockrow > .avatarcontent.floatcontainer.widget_post_bit > .widget_post_userinfo > .cms_widget_post_useravatar.widget_post_useravatar
+www.360haven.com###block_newthreads_6.blockrow > .avatarcontent.floatcontainer.widget_post_bit > .widget_post_userinfo > .cms_widget_post_useravatar.widget_post_useravatar
+www.360haven.com###sidebar > li > .block.smaller > .blocksubhead
+www.360haven.com###block_tagcloud_12.blockrow
+www.360haven.com###block_tagcloud_11.blockrow
+www.360haven.com###block_dbtech_thanks_entries_61.widget_content.blockbody.floatcontainer.userprof_content.userprof_content_border
+www.360haven.com###block_html_62.blockrow
+www.360haven.com###sidebar_button
+||smacknetwork.com/images/ipb/public/style_images/master/
+smacktalks.org###content.clearfix > .clear.clearfix.left > .topic_share.left.shareButtons.ipsList_inline
+smacktalks.org###footer_utilities.main_width.clearfix.clear
+www.exrapidleech.info###h3bc
+www.exrapidleech.info###o36f
+www.exrapidleech.info##a > img
+www.exrapidleech.info##u > img[width="1530"][height="15"]
+www.exrapidleech.info###g0ed
+www.exrapidleech.info##center > i > img
+www.exrapidleech.info###blckviddiv
+premium4.us##span
+||theindiestone.com/forums/uploads/profile/photo-11296.gif
+theindiestone.com###content.clearfix > .clear.clearfix.left > .topic_share.left.shareButtons.ipsList_inline
+theindiestone.com###footer
+www.360haven.com###\33 HnavMenu.iFluid
+www.360haven.com###tovse
+www.360haven.com###contentMain > .contentWrap > .contentLeft > .contentRight > .contentTL > .contentTR > .contentBL > .contentBR > .contentBodyWrap > .body_wrapper > table > tbody > tr > td > .collapse > .blockhead
+www.360haven.com###module11.vba_module.blockbody
+www.360haven.com###module2163.vba_module.blockbody
+www.360haven.com###module23.vba_module.blockbody
+www.360haven.com###module15.vba_module.blockbody
+www.pixiv.net##.social-container
+||i.ytimg.com/vi/fF6IVUum7wI/default.jpg
+pixelcarworld.com###o292
+shared.com###download-sidebar
+www.nsaneforums.com###categories.ipsLayout_content.clearfix > center
+www.nsaneforums.com##.AdsTest
+www.howtogeek.com##.overlay-bg
+!www.mediafire.com##.dl-utility-nav
+!www.mediafire.com##.dlPromo1Content
+!www.mediafire.com##.socialContainerWrap
+!www.mediafire.com###footer
+!www.mediafire.com###header
+!www.mediafire.com##.dlInfo
+!www.mediafire.com###download_visible_wrapper > .wrap > .dl_options_innerblock.cf
+theescapists.gamepedia.com##.show-ads
+!@@||mediafire.com/templates/linkto/
+www.cracked.com##.facebookWrapperModule
+www.cracked.com###persistent-share
+www.cracked.com##.fancybox-overlay
+filmingcops.com###wisepop-main-container
+www.yahoo.com###yui_3_15_0_1_1422800437730_208.sticky
+www.yahoo.com##.legal-footer
+webcache.googleusercontent.com###navigation.main
+www.horizonmb.com###navbar_notice_3.restore
+www.horizonmb.com##.ih[href="forums/4-Console-News"]
+www.horizonmb.com###header_wrapper > .dh[href="/"]
+www.horizonmb.com##.navtab[href="diamond"]
+www.horizonmb.com##.signature.restore
+www.horizonmb.com###quick_reply.vbform
+www.horizonmb.com###qr_defaultcontainer.floatcontainer.qrcontainer > .navlinks
+www.horizonmb.com###similar_threads
+www.horizonmb.com###footer.floatcontainer.footer
+www.overkillsoftware.com###cookie-law-info-bar
+www.overkillsoftware.com###header-secondary-outer
+www.overkillsoftware.com###header-outer
+www.overkillsoftware.com###to-top
+www.overkillsoftware.com###footer-outer
+www.ruw.xyz###xydlrc
+www.ruw.xyz###xydlright > .xyclose
+www.ruw.xyz###xydlleft
+www.ruw.xyz###xybrad
+www.ruw.xyz###notices
+www.ruw.xyz##div > .smallfont > a[href="/payments.php"]
+www.ruw.xyz###collapseobj_sponsors
+www.fretsonfire.net###announce-box
+www.fretsonfire.net###p613837.post.bg2 > .inner > .postbody > .profile-icons > .report-icon
+!www.youtube.com##.ytp-button.ytp-button-watch-later
+forums.adobe.com###j-header-wrap
+www.youtube.com###sb-button-notify.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-button-has-icon.sb-notif-off
+www.youtube.com###appbar-onebar-upload-group
+www.youtube.com##.gsib_b
+www.youtube.com###appbar-nav.appbar-content-hidable > .appbar-nav-menu > li:nth-of-type(3)
+www.youtube.com###masthead-appbar-container.clearfix
+drive.google.com##.drive-viewer.drive-viewer-v2.drive-viewer-focus-outlines-disabled > .drive-viewer-v2-toolstrip > .drive-viewer-v2-toolstrip-actions > .drive-viewer-toolstrip-open-and-openwith > .drive-viewer-toolstrip-openwith.drive-viewer-dark-button.goog-inline-block.drive-viewer-button
+drive.google.com##.drive-viewer.drive-viewer-v2.drive-viewer-focus-outlines-disabled > .drive-viewer-v2-toolstrip > .drive-viewer-v2-toolstrip-actions > .drive-viewer-v2-toolstrip-custom-panel > .drive-viewer-more-menu.drive-viewer-dark-button.goog-inline-block.drive-viewer-button
+dailycaller.com###share-wrapper.row.reskinned
+dailycaller.com###backtotop.hide-for-medium-down
+dailycaller.com###masthead.site-header > .menuassets.hide-for-medium.hide-for-small > .contain-to-grid.sticky.fixed
+www.youtube.com###ticker.yt-alert.yt-alert-default.yt-alert-info
+www.xbox360iso.com##.downloadbutton
+www.xbox360iso.com###header.floatcontainer.doc_header > div:nth-of-type(1) > .logo-image[href="http://www.xbox360iso.com/"] > img[alt="XBOX360 ISO - XBOX 360 GAMES"]
+www.xbox360iso.com###vbtab_whatsnew
+www.xbox360iso.com##.body_wrapper > .navlinks
+www.xbox360iso.com##.inlineimg
+www.xbox360iso.com###thread_tags_list
+www.xbox360iso.com###thread_info.thread_info.block > .threadinfohead.blockhead
+www.xbox360iso.com###notices.notices
+||www.xbox360iso.com/images/reputation/
+www.xup.in##div:nth-of-type(2)
+wikia.com##SECTION#LatestPhotosModule
+wikia.com##.thumb.tright.videobox
+wikia.com##.WikiaHubBranding.HubBrandingBlackBackground
+wikia.com##.CorporateFooter
+wikia.com###WikiaFooter
+wikia.com##.ChatModule.module
+!wikia.com###globalNavigation
+!wikia.com##DIV#mw-imagepage-content.mw-content-ltr
+wikia.com###CategorySelectAdd
+!wikia.com##NAV
+wikia.com##.tally
+wikia.com##.wikia-button.comments.secondary.talk
+wikia.com###WikiaRecentActivity
+wikia.com##.play-circle
+wikia.com##.duration[itemprop="duration"]
+wikia.com##.sprite.info-icon
+wikia.com###LatestPhotosModule
+wikia.com##DIV[style="max-width:304px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; border:3px solid #8fa234; padding:10px"]
+wikia.com###WikiaArticleFooter
+wikia.com###WikiaBar
+wikia.com###WikiaNotifications.WikiaNotifications
+wikia.com###WikiHeader.WikiHeader > .buttons
+wikia.com##.global-footer.row
+wikia.com##.wikia-menu-button
+www.se7ensins.com###QuoteSelected.xenTooltip.flipped
+||i1221.photobucket.com/albums/dd467/bobfedex/veteran_zps87e28d4a.png
+www.xyzmods.com##.post_wrap > .author_info > .user_details > .basic_info > .group_icon
+||www.facebook.com/plugins/like.php
+www.xyzmods.com##.topic_share.left.shareButtons.ipsList_inline
+www.xyzmods.com##.col_f_icon.altrow.short
+www.xyzmods.com###content.clearfix > .category_block.block_wrap:nth-of-type(6)
+www.xyzmods.com##.non_button
+||8ch.net/banners.php?board=bdsm
+csgostash.com##.container > .row:nth-of-type(2) > .col-lg-12 > .row.center-block.text-center > .col-lg-4.col-md-6.outerPadding:nth-of-type(5) > .well.resultBoxAd.resultBoxAd-skin
+javascript:""$domain=www.youtube.com
+www.kongregate.com##.adcontainer
+!www.xbox360iso.com###thread_758746.threadbit.hot.lock
+!||www.xbox360iso.com/images/misc/poll_posticon.gif
+!||www.xbox360iso.com/images/misc/sticky.gif
+!www.xbox360iso.com##.prefix.understate
+!||www.xbox360iso.com/images/buttons/firstnew.png
+!www.xbox360iso.com##.below_body
+!www.xbox360iso.com###footer.floatcontainer.footer
+www.minecraftforum.net###netbar.t-netbar.u-icon.u-icon-z
+www.minecraftforum.net###site-main > .main > .page-region.p-header.p-header-c > .page-block.p-header-hub > .p-header-social
+||assets.tumblr.com/assets/html/iframe/follow.html
+whatsupic.com###art-main > .art-header
+gamejolt.com###online-game-body.well.fill-white > .ima-ad-container
+forza-clubhouse.webs.com##.freebar-fixed
+www.naointendo.com.br###login
+www.naointendo.com.br###social
+www.naointendo.com.br##footer
+www.naointendo.com.br##.social
+www.ahnegao.com.br###rss-widget
+steamcommunity.com###footer
+||www.danasoft.com/
+!play.spotify.com###desktop > .content.upsell-background.mft.show
+musicfeeds.com.au###header-recent-bar.is-fixed
+storify.com##.lf-popover.lf-selection-popover.lf-active
+www.thegtaplace.com###contentWrap > .disclaimer
+www.tomshardware.com##.rightCol
+www.tomshardware.com###shareBarFloating
+www.tomshardware.com###mainSection.page.recurringSolutions > .recurringSolutionTitle.line > .line.spaceT10.spaceB10.moboff.tabletoff.leftRibbonCtn
+www.tomshardware.com###topContainer.topContainer > .mainHeader.line > header > .headerLink.line
+www.tomshardware.com###topContainer.topContainer > .mainHeader.line > header > .headerContent.line > .hdBox.cInvert.tabletoff.moboff.withSocialLogin.bomsocialTrigger
+www.tomshardware.com###bomFT.bomFt.footer.cInvert
+www.tomshardware.com###mainSection.page.recurringSolutions > .tguContent.line > .leftCol.headBorderStr > .recurringSolutionContent.line.faq > .line.tools.spaceT5
+www.tomshardware.com###mainSection.page.recurringSolutions > .tguContent.line > .leftCol.headBorderStr > .bottomTopicQuickForm
+www.tomshardware.com###mainSection.page.recurringSolutions > .tguContent.line > .leftCol.headBorderStr > .spaceT20
+www.tomshardware.com##.btTags.bold
+www.tomshardware.com##.closed.tcsTopicStatus
+www.katsbits.com###disqus_container > p
+www.katsbits.com###footer
+www.katsbits.com###wrapper > .footerBase
+www.katsbits.com###back_to_top
+www.katsbits.com###rightColumn
+||i.imgur.com/4ROnC.png
+||i.imgur.com/Rv9h2.png
+||i.imgur.com/CxCb8.png
+||www.incredibots.com/if/download/file.php?avatar=70_1419562114.gif
+olhardigital.uol.com.br###OD_barra.OD_ret.OD_oculta
+www.roblox.com###Body > div:nth-of-type(1) > .divider-left > div:nth-of-type(4)
+medium.com##.highlightMenu.highlightMenu--active
+forum.craftersland.net###content.clearfix > .clear.clearfix.left:nth-of-type(6)
+forum.craftersland.net###content.clearfix > .ipsBox
+forum.craftersland.net###footer
+blogjob.com###ub_admin_bar_wrap
+blogjob.com###container2
+blogjob.com###ub_global_footer_content
+www.360haven.com###forum_info_options.forum_info.block
+www.360haven.com##.threadstatus
+||www.360haven.com/forums/images/styles/DarkCore/misc/tag.png
+www.htpcbeginner.com###om-j5tneyjoti-canvas.optin-monster-overlay
+www.xbox360iso.com###wgo.collapse.wgo_block.block
+eusouandroid.com###arevicofancy-overlay
+eusouandroid.com###arevicofancy-wrap
+zippyshare.com###lrbox > .slickbox > .center
+zippyshare.com##.container > .login
+zippyshare.com###bottom
+zippyshare.com###lrbox > .slickbox > .right:nth-of-type(4)
+zippyshare.com###lrbox > .slickbox > .left:nth-of-type(3)
+zippyshare.com###lrbox > .center:nth-of-type(6)
+zippyshare.com###qrCode
+zippyshare.com###lrbox > .left > div
+pretendracecars.wordpress.com###infinite-footer
+pretendracecars.wordpress.com###bit.loggedout-follow-normal
+wegotthiscovered.com###BPVCWEJPAO.popup.popup--newsletter.open
+wegotthiscovered.com##.prev-next-article
+wegotthiscovered.com###mainHeader.header.sticky
+||st.chatango.com/h5/gz/r0319151706/id.html
+www.webcheats.com.br###serversoftBar
+www.webcheats.com.br###footerMain.clearfix
+www.webcheats.com.br###footerBar
+www.webcheats.com.br###similar_threads
+www.webcheats.com.br###thread_info.thread_info.block
+en.wikipedia.org###footer
+support.mozilla.org##header
+support.mozilla.org###main-content > article > .grid_3:nth-of-type(2)
+support.mozilla.org##footer
+www.maniapark.com###main > .pub
+obviousmag.org##.arrows
+obviousmag.org###header-wrapper
+||www.facebook.com/plugins/likebox.php
+obviousmag.org###article.ink-grid.main > article > .container.column-group.gutters > .content.small-100.medium-100.large-65 > div:nth-of-type(2)
+obviousmag.org###article.ink-grid.main > article > .container.column-group.gutters > .content.small-100.medium-100.large-65 > .author
+www.trackmania-carpark.com###contenu > .pub
+www.trackmania-carpark.com###menu_droit > .ssmdroit:nth-of-type(3)
+www.trackmania-carpark.com###menu_droit > h2:nth-of-type(2)
+www.trackmania-carpark.com###contenu > .pub:nth-of-type(5)
+||lastbullet.net/h.png
+forums.lastbullet.net###globalnav
+forums.lastbullet.net###content > .wrapper > .red_alert
+||compartilhabrasil.org/embed/6144138852/
+arcadesushi.com###container > .nav-control.right
+arcadesushi.com###container > .nav-control.left
+arcadesushi.com##.social-side.social-icons.show
+arcadesushi.com###container > .site-container > .site-footer
+arcadesushi.com###container > .site-container > .site-content > .main-content > .wrapper > .main_content_thumb_title_roll:nth-of-type(4)
+arcadesushi.com##.next-post.center
+arcadesushi.com###container > .site-container > .site-content > .main-content > .wrapper > .blogroll.main_content_thumb_title_roll.clearfix.size4:nth-of-type(2)
+arcadesushi.com##.social-share
+arcadesushi.com##.blogroll.main_content_thumb_title_roll.clearfix.size4:nth-of-type(3)
+www.today.com###entry-panel.entry-sticky > .entry-container.clearfix:nth-of-type(2) > .entry > .share-bar
+www.today.com###Outbrain_v02.text-links.outbrain-wrapper
+www.today.com###entry-panel.entry-sticky > .entry-container.clearfix:nth-of-type(2) > .entry > .sharing-bottom.var2.clearfix
+www.howtogeek.com###bd > .yui-ge > .yui-u:nth-of-type(2) > .sidebar > .triviahomebox
+www.howtogeek.com###htgHeader > .logo > .logo2
+||apis.google.com/u/0/_/widget/render/page
+www.howtogeek.com###bd > .yui-ge > .yui-u:nth-of-type(2) > .sidebar > div:nth-of-type(5)
+www.introversion.co.uk###habla_beta_container_do_not_rely_on_div_classes_or_names.habla-browser-firefox.habla-desktop.olrk-noquirks
+www.introversion.co.uk##table:nth-of-type(2)
+@@||mnstat.com^
+twitch.tv##.sub-upsell
+twitch.tv##DIV.sub-upsell.js-sub-upsell
+quantserve.com
+||quantserve.com
+store.steampowered.com##.highlight_player_item.highlight_movie
+www.emuparadise.me###content.main-page-div > .share-buttons-top.mobile-hide
+||www.mpgh.net/forum/images/icons/icon5.png
+||www.mpgh.net/forum/images/icons/icon6.png
+www.mpgh.net##.forumrow.table > .forumactionlinks.td
+www.nintendolife.com###NL_MPU_1.insert
+www.nintendolife.com###page-wrapper > .masthead
+www.cnet.com###flyoutPromo.col-4
+www.makeuseof.com##.__hinit
+www.makeuseof.com##.sharebar
+||modfrenzy.net/wp/wp-content/uploads/2015/02/cuffed.jpg
+||modfrenzy.net/wp/wp-content/uploads/2015/02/cropped-cropped-LegsWide.jpg
+modfrenzy.net###site-description
+modfrenzy.net###site-title > span > a[href="http://modfrenzy.net/wp/"]
+modfrenzy.net###itro_popup
+modfrenzy.net###itro_opaco
+www.quora.com##.Answer.ActionBar.sticky

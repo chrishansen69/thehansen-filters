@@ -1,0 +1,392 @@
+! Title: thehansen aggressive rules
+
+! NOT MINE
+! NOT MINE
+! NOT MINE
+! NOT MINE
+! NOT MINE
+
+! linkedin
+platform.linkedin.com
+linkedin.com/countserv
+linkedin.com/cws/
+linkedin.com/uas/
+static.licdn.com/scds/concat/common/js
+! brightcove
+brightcove.com
+! wordpress.com
+r-login.wordpress.com
+! disqus
+disqus.com
+disquscdn.com
+! livefyre
+livefyre.com
+! twitter
+platform.twitter.com/widgets
+cdn.api.twitter.com/*/count
+widgets.twimg.com
+! adobe
+assets.adobedtm.com
+adobe_tracking.js
+! tumblr
+platform.tumblr.com
+! pinterest
+widgets.pinterest.com/*count
+! reddit
+redditstatic.com/button
+! gravatar
+gravatar.com
+! meerkat
+meerkatapp.co/btn
+! web notifications
+goroost.com/roostjs
+! stumbleupon
+platform.stumbleupon.com
+! hulu
+config.hulu.com
+! br
+templates.buscape.com
+mediakit.com.br
+powermarketing.com
+amazonaws.com/web/static/visitor/scripts/pm.bootstrapper.js
+amazonaws.com/web/static/visitor/scripts/xrtml
+! other
+sail-horizon.com
+aolcdn.com/os/aol/
+gigya.com
+chartbeat.com
+static.addtoany.com
+unear.net
+zunnit.com
+userdmp.com
+
+! Brasil Post (Huffington post)
+! ------------------------------------------------------------------------------
+! js
+huffpost.com/*.js
+! img
+assets.huffingtonpost.com/*.png
+huffpost.com/images/*.png
+huffpost.com/images/*.gif
+brasilpost.com.br/*.png
+! dom
+brasilpost.com.br###wrapper > .group.main
+brasilpost.com.br###wrapper > .header
+brasilpost.com.br###carousel
+brasilpost.com.br###wrapper > .content > .group.blog-banner
+brasilpost.com.br###wrapper > .content > .group.main > .rail
+brasilpost.com.br###conversations-huffpost-web
+brasilpost.com.br###wrapper > .footer > footer
+! Buzzfeed
+! ------------------------------------------------------------------------------
+! scripts
+buzzfed.com/*.js
+@@buzzfed.com/static/js/General_concat_footer.js
+@@buzzfed.com/static/js/General_concat_header.js
+@@buzzfed.com/static/js/prototype/prototype.1.7-compact.js
+! images
+buzzfed.com/*/campaign_images/
+buzzfeed.com/*/campaign_images/
+buzzfed.com/*/global/
+! dom
+buzzfeed.com##.page-footer-wrapper
+buzzfeed.com###responses
+buzzfeed.com###.normal_reactions
+buzzfeed.com###social-actions
+buzzfeed.com###.Column2
+buzzfeed.com###hot-buzz-stats
+buzzfeed.com###new-header-hot-nav
+buzzfeed.com###header_wrapper
+buzzfeed.com###buzz_sub_buzz > .buzz_superlist_item > .sub_buzz_content > .bf_dom.share-box
+buzzfeed.com###page_container > .section.page-content.PageContent > .Column2
+buzzfeed.com###related-links
+! Estadão
+! ------------------------------------------------------------------------------
+! scripts
+estadao.com.br/*.js
+! images
+estadao.com.br/estadao/img/
+estadao.com.br/paywall/
+img.estadao.com.br/fotos3/
+estadao.com.br/*.jpg
+! styles
+estadao.com.br/*.css
+@@estadao.com.br/estadao/css/noticia.css
+@@estadao.com.br/estadao/css/style.css
+! dom
+estadao.com.br##.headermain
+estadao.com.br##.tools
+estadao.com.br##.sub
+estadao.com.br##.widgets
+estadao.com.br##.relacionadastexto
+estadao.com.br##.footermain
+estadao.com.br##.assine
+! Folha
+! ------------------------------------------------------------------------------
+! scripts
+folha.uol.com.br/**aside
+folha.com.br/*aside
+! images
+folha.com.br/livraria
+f.i.uol.com.br/*.png
+@@f.i.uol.com.br/folha/colunas/images
+@@f.i.uol.com.br/*.jpeg
+! dom
+folha.uol.com.br###top
+folha.uol.com.br##.menu2.container > .span4
+folha.uol.com.br##.menu2.container > .row > .span4
+folha.uol.com.br##.menu2.container > .row > .span12 > .row > .span4
+folha.uol.com.br##.menu2.container > .row > .span12 > .row > .span8 > .toolbar
+folha.uol.com.br###news > .toolbar
+folha.uol.com.br##.menu2.container > .row > .span12 > .row > .span8 > .article.ads-livrariadafolha
+folha.uol.com.br##.menu2.container > .row > .span16 > .section-masthead
+folha.uol.com.br###footer
+! Fortune
+! ------------------------------------------------------------------------------
+! js
+fortune.com/js/
+timeinc.net/hat/js/time-hat.js
+! json
+api.onebot.timeinc.com
+! js, css, html
+timeinc.net/hat/
+! dom
+fortune.com##.main-header
+fortune.com###content > .stick.left-rail-container
+fortune.com###content > .content-well > div > .full-article > .post.article-inner > .article-body > .article-footer
+fortune.com###content > .content-well > div > .full-article > .post.article-inner > .article-divider
+fortune.com###content > .content-well > div > .full-article > .post.article-inner > .article-header > .article-byline > .article-social
+fortune.com###content > .content-well > div > .full-article > .post.article-inner > .article-body > .article-bottom > .right-rail > .right-rail-inner
+! Jornal O Globo / G1
+! ------------------------------------------------------------------------------
+! scripts
+glbimg.com/*.js
+api.globovideos.com/*callback/
+globo.com/*.js
+js.og.infg.com.br
+@@glbimg.com/*jquery/
+@@videos.globo.com
+! dom
+oglobo.globo.com###sticker
+oglobo.globo.com##.titulo-editoria
+oglobo.globo.com##.publicidade
+oglobo.globo.com##.box-vejaTambem
+oglobo.globo.com##.em-destaque
+oglobo.globo.com##.footer
+oglobo.globo.com##footer
+oglobo.globo.com##.navegacao
+oglobo.globo.com##.mais-lidas
+oglobo.globo.com##.editorias
+oglobo.globo.com##.links-institucionais
+g1.globo.com###glb-cabecalho
+g1.globo.com###glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-4
+g1.globo.com###glb-diretorio
+g1.globo.com###glb-rodape
+g1.globo.com###glb-materia .widget-veja-tambem
+! IG
+! ------------------------------------------------------------------------------
+! js
+statig.com.br/*.js
+! img
+statig.com.br/sass-canais/*.png
+statig.com.br/noticias
+statig.com.br/webmail
+statig.com.br/busca
+statig.com.br/selos-agencias
+! css
+statig.com.br/css/shopping
+! dom
+economia.ig.com.br###header
+economia.ig.com.br###barra-lateral
+economia.ig.com.br###botoes
+economia.ig.com.br###tags
+economia.ig.com.br###extra-content
+economia.ig.com.br###inner-footer
+! Info (UOL)
+! ------------------------------------------------------------------------------
+! js
+cloudfront.net/dell-widget
+! img
+revista.info.abril.com.br/*/capa.jpg
+info.abril.com.br/2015/images/
+! html
+info.abril.com.br/*.shtml?embed=s
+! dom
+info.abril.com.br##.navbar-inverse.navbar
+info.abril.com.br##.interna.page-container.main-container > .sidebar-content-post.sidebar-content.col-md-3
+info.abril.com.br##.interna.page-container.main-container > .main-content-post.main-content.col-md-9 > .post-eorgcontent > .wrap-texto-social > .social-left-container.col-md-1
+info.abril.com.br##.interna.page-container.main-container > .main-content-post.main-content.col-md-9 > .leia-mais
+info.abril.com.br##.interna.page-container.main-container > .main-content-post.main-content.col-md-9 > .comentarios-facebook
+info.abril.com.br##footer
+! Mashable
+! ------------------------------------------------------------------------------
+! js
+mshcdn.com/*.js
+! image
+mshcdn.com/assets/*.png
+! dom
+mashable.com###sticky
+mashable.com###post-head
+mashable.com###body > .flex-box > .sidebar.box-cell
+mashable.com###story > .article-header > .social.shares
+mashable.com###post-content > .limit-comments.article-comments
+mashable.com###more-in-channel
+mashable.com###site-footer-wrapper
+! Olhar Digital (UOL)
+! ------------------------------------------------------------------------------
+!images
+olhardigital.uol.com.br/olhar2013/imagens
+olhardigital.uol.com.br/uploads/*_150_95.
+olhardigital.uol.com.br/uploads/*_86_55.
+! dom
+olhardigital.uol.com.br###barra
+olhardigital.uol.com.br###topo
+olhardigital.uol.com.br###direita
+olhardigital.uol.com.br###conteudo > .texto > .link-forum
+olhardigital.uol.com.br###conteudo > .horizontal.bloco-conteudos.bloco
+olhardigital.uol.com.br###barra_bottom
+olhardigital.uol.com.br###rodape
+olhardigital.uol.com.br###conteudo > .superior.barra
+olhardigital.uol.com.br###conteudo > .inferior.barra
+! Terra
+! ------------------------------------------------------------------------------
+trrsf.com
+trrsf.com.br
+! images
+@@trrsf.com*/image/
+! styles
+@@trrsf.com.br**core.css
+! dom
+tecnologia.terra.com.br###post-navigation
+tecnologia.terra.com.br###trr-ctn-content > .trr-holder > .col-aside
+tecnologia.terra.com.br###trr-navbar-footer
+tecnologia.terra.com.br###trr-ctn-content > .ctn-tgm-bottom-holder
+! The Next Web
+! ------------------------------------------------------------------------------
+! js
+thenextweb.com/*/?cf_action=sync_comments
+tnwcdn.com/*.js
+! img
+tnwcdn.com/*-220x*.*
+tnwcdn.com/*-520x*.*
+thenextweb.com/*-520x*
+thenextweb.com/*/themes/icetea/lemonsoda/img/
+tnwcdn.com/*/themes/icetea/lemonsoda/img/
+! dom
+thenextweb.com###top
+thenextweb.com###comments
+thenextweb.com##.footer
+thenextweb.com###main > .l-postSingle--canvas.l-postSingle > .l-postSingle-wrap > .l-postSingle-content > .l-postSingle-content-main > .js_articleShare.articleShare.l-postSingle-content-main-share
+thenextweb.com###main > .l-postSingle--canvas.l-postSingle > .l-postSingle-wrap > .l-postSingle-content > .sidebar.l-postSingle-content-sidebar
+thenextweb.com###main > .l-postSingle--canvas.l-postSingle > .l-postSingle-wrap > .l-postSingle-content > .l-postSingle-content-main > .relatedPosts
+! The Verge
+! ------------------------------------------------------------------------------
+ooyala.com/*/similar/assets
+95.211.106.41
+! scripts
+player.ooyala.com/*.js
+! html
+player.ooyala.com/*.html
+! Time
+! ------------------------------------------------------------------------------
+! dom
+time.com##.main-header
+time.com##.article-header > .article-sub-headline > .social-links
+time.com##.article-footer
+time.com###notTheHeader > .site-footer-nojs
+
+
+! UOL
+! ------------------------------------------------------------------------------
+! scripts
+jsuol.com.br/*.js
+uol.com.br/*.js
+! images
+imguol.com/avatars
+imguol.com/c/noticias/
+n.i.uol.com.br
+imguol.com/*_80x80.jpg
+img.uol.com.br/_template/v1/*.png
+forum.imguol.com/*.gif
+! css
+jsuol.com.br/c/_template/v1/*.css
+uol.com.br/module/gera-modulos/*.css
+! dom
+uol.com.br###menu-geral
+uol.com.br###.erro-e-comentar
+uol.com.br###.composto.com-destaque
+uol.com.br###.comentarios
+uol.com.br###conteudo-principal > .erro-e-comentar
+uol.com.br###conteudo-principal > .comentarios
+uol.com.br###conteudo-principal > .composto.com-destaque
+uol.com.br###menu-estacao
+uol.com.br##footer
+uol.com.br###topo-colunas3
+uol.com.br##header > .botoes
+! Valor Econômico
+! ------------------------------------------------------------------------------
+! js
+valor.com.br/*.js
+!valor.com.br/*/valor_performance
+!valor.com.br/*/valor_helper
+!valor.com.br/*/js/
+! images
+valor.com.br/*/themes/
+valor.com.br/*/valor_pecas_assinaturas
+valor.com.br/sites/default/*.jpg
+@@valor.com.br/*/themes/basic/css/img/page.png
+! css
+valor.com.br/*.css
+@@valor.com.br/*/css/css_
+! dom
+valor.com.br###header
+valor.com.br###sitewide-nav
+valor.com.br###footer
+! Veja
+! ------------------------------------------------------------------------------
+abril.com.br/complementos-materias
+barrasassine.abril.com.br
+! scripts
+abril.com.br/*.js
+! html
+abril.com.br/widgets
+apis.google.com*abril.com.br
+! images
+abril.com.br/images/
+abril.com.br/assets/
+abril.com.br/v2010
+abril.com.br/_estrutura
+@@abril.com.br/v2010/includes/wordpress/
+! styles
+abril.com.br/stylesheets/
+abril.com.br/svc/
+! dom
+veja.abril.com.br##.noindex
+veja.abril.com.br###barra-abril
+veja.abril.com.br###header
+veja.abril.com.br###sidebar
+veja.abril.com.br###widgetVeja
+! VentureBeat
+! ------------------------------------------------------------------------------
+! js
+vbstatic.co/*.js
+venturebeat.com/*.js
+!netdna-cdn.com/*/jquery/ui
+netdna-cdn.com/*/plugins/*.js
+@@netdna-cdn.com/*/plugins/vb-lazy-load
+netdna-cdn.com/*/vbnews/lib
+@@netdna-cdn.com/*/vbnews/lib/vb-frontend.js
+! img
+vbstatic.co/assets/*.png
+venturebeat.com/*-widget.png
+venturebeat.wpengine.com/*-widget.png
+@@vbstatic.co/assets/img/*.png
+! dom
+venturebeat.com##.navbar-static-top.navbar-default.navbar
+venturebeat.com##.site-header.container
+venturebeat.com###secondary
+venturebeat.com##.entry-wrapper > .entry-header > .clearfix.entry-meta
+venturebeat.com###the_footer
+!4shared anti-adblock
+@@||4shared.com/js/blockDetect/*
+@@||4shared.com/show_ad*
