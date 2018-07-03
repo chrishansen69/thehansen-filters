@@ -34,7 +34,7 @@ on_success:
  - cmd: For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a:%%b)
  - git checkout master
  - git add Filters.txt
- - git commit -m "Automated Appveyor build at %mydate%, %mytime% [skip ci]"
+ - cmd: cmd /c trycommit.bat
  - git push origin master
 
 notifications:
