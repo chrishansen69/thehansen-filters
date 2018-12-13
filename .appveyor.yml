@@ -33,7 +33,7 @@ on_success:
  - cmd: For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c-%%a-%%b)
  - cmd: For /f "tokens=1-2 delims=/:" %%a in ('time /t') do (set mytime=%%a:%%b)
  - git checkout master
- - git add Filters.txt
+ - git add _merged_filters.txt
  - cmd: cmd /c trycommit.bat
  - git push origin master
 
