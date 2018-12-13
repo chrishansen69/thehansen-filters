@@ -72,12 +72,12 @@ https://raw.githubusercontent.com/btgregory/uBlock-Supplementary-Blocklist/maste
 https://raw.githubusercontent.com/btgregory/uBlock-Supplementary-Blocklist/master/cosmetic_filters.txt  
 https://raw.githubusercontent.com/btgregory/uBlock-Supplementary-Blocklist/master/network_filters.txt  
 ### These, of course...
-https://raw.githubusercontent.com/chrishansen69/thehansen-filters/master/adblock1.txt  
-https://raw.githubusercontent.com/chrishansen69/thehansen-filters/master/adblock2.txt  
-https://raw.githubusercontent.com/chrishansen69/thehansen-filters/master/ublock1.txt  
-https://raw.githubusercontent.com/chrishansen69/thehansen-filters/master/ublock2.txt
+https://raw.githubusercontent.com/uwx/thehansen-filters/master/adblock1.txt  
+https://raw.githubusercontent.com/uwx/thehansen-filters/master/adblock2.txt  
+https://raw.githubusercontent.com/uwx/thehansen-filters/master/ublock1.txt  
+https://raw.githubusercontent.com/uwx/thehansen-filters/master/ublock2.txt
 ## License
-Copyright (c) 2013-2016 chrishansen69
+Copyright (c) 2013-2018 uwx
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
