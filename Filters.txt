@@ -10181,6 +10181,7 @@ abc-fonts.me###galepro-core-adb-enabled
 yocast.tv###ra9e
 flightradar24.com###responsiveBottomPanel
 myanimelist.net##._unit
+mediafire.com###abnotify
 biggestplayer.me##.adblock + *
 hearthhead.com,wowhead.com##.block-bg
 wowhead.com##.block-bgimg
@@ -10207,6 +10208,7 @@ homerun.re,strikeout.co,vipbox.sx,vipleague.ch,vipleague.co,vipleague.is,vipleag
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
 ||corrosif.science^$domain=filerev.cc|pencurimovie.pw
 ||rockradio.com^*/blockadblock-$script,domain=rockradio.com
+||static.game-state.com/images/main/alert/replacement/
 ||www.google.*/ajax/pi/phd?abd=0$xmlhttprequest
 redtube.com###as_131
 redtube.com###slidePanelContainerAB
@@ -10225,6 +10227,7 @@ shadbase.com##img[alt="adblock"]
 /wp-content/plugins/ad-block-defender/*
 /wp-content/plugins/deadblocker/*
 /wp-content/uploads/an-temp/*$script,stylesheet
+/SvgAdblockDetected/*
 ||bdgest.com/js/site.js?
 ||cmath.fr/images/fond2.gif
 ||cmath.fr/images/fondsticky.gif
@@ -10235,6 +10238,7 @@ shadbase.com##img[alt="adblock"]
 ||skyrock.net/img/*/adblock/
 @@/advertisement.js$script,~third-party,domain=fun-animes.fr
 @@/noadblock-nice-message/assets/js/ads.js?$script,~third-party
+@@||abcbourse.com/scripts/ads.js$script,~third-party
 @@||ausujet.com/skins/common/ads.js
 @@||cyberdean.fr/js/advertisement.js
 @@||dbz-fantasy.com/ads.css
@@ -10273,12 +10277,14 @@ shadbase.com##img[alt="adblock"]
 jaitoutcompris.com###antiBlock
 iphonesoft.fr,iphonetweak.fr###msgNoPub
 retinaboys.com###screen_block
+lagrosseradio.com###warn
 ceesty.com,clkme.me,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,gestyy.com,jigbig.tk,newsfortrump.ga,sh.st,shorte.st,skiip.me,skipp.io,viid.me,wiid.me##.information-container
 etr.fr##.no_block
 radiox.com##.notifyjs-corner
 papergeek.fr##[id^="padb_widget_"]
 forumdz.com##body .breadcrumb + center > [color="red"] > b
 forum.pcastuces.com##div > [src] + [id] + [class][style^="display: block;"]
+closermag.fr##div[id^="detection-block"]
 bd-sanctuary.com,cine-sanctuary.com,comics-sanctuary.com,manga-sanctuary.com##div[style^="background:#444;"]
 pausecafein.fr###adb-pop
 dbz-fantasy.com#@##adTeaser
@@ -10292,15 +10298,13 @@ dealerdunet.fr#@#.text_ads
 comptoir-info.com#@#.textad
 usgang.ch###rectangle-wrapper
 ||jappy.tv/i/wrbng/abb.png
-drive2.ru##a[href][target="_blank"] > img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 delfi.ee###ab--notification-ribbon
 minimultik.ru###abDetected
 patrioty.org.ua###ad_pu_modal
 vesti-ukr.com###adblockpopup
 happy-hack.ru###admitad-cookie-check-popup
-chipinfo.pro###ads-row
 wotactions.com###ads_warning
-firebit.net###adv-300 + div[class][align="center"][style^="background-color"]
+firebit.info###adv-300 + div[class][align="center"][style^="background-color"]
 novostroy-m.ru###advert_result
 cxem.net###antiAdBlock
 elhow.ru###b-info-wrapper
@@ -10310,7 +10314,9 @@ pln-pskov.ru###check_ad_block
 helpsetup.ru###d930
 delfi.ee###delfiTopBar
 sd-company.su###dom_adblock
+myshared.ru###download_form > .uk-margin-top[style]
 forum.bestflowers.ru###exposeMask
+gk-stalker.xyz###gkadblock
 pastenow.ru###google-block
 blackdesert-info.ru###header > div[style*="z-index"][style*="999999"]
 info-mage.ru###helpme[style="display: block;"]
@@ -10318,9 +10324,11 @@ poncy.ru###hide-adblock
 kissvk.com###madBlockModal,.modal-backdrop
 gisclub.tv,teremok.org.ua,webos-forums.ru###mdl_adb
 ostroh.info###modal.modal-bg
+7days2die.info###nafikblock
 all-episodes.net###odin
-center-yf.ru,lektsii.org,studopedia.org,studopedia.ru,studopedia.su###opaco,#popup
-newkaliningrad.ru###page-wrapper > #panel-wrapper ~ div[class*=" "]:not(#page-buffer)
+center-yf.ru,lektsii.org,studopedia.com.ua,studopedia.org,studopedia.ru,studopedia.su###opaco,#popup
+md4u.ru###pagecontent > div[style*="background-color"]
+forummikrotik.ru###phpbb-ads-ab
 kompravda.eu,kp.ru###popapIsBlockedAd
 pb.wtf,piratbit.org,piratbit.ru###result > .request
 mnogoto4ka.ru###sb-site > div[class][style*="z-index"][style*="999999"]
@@ -10329,18 +10337,21 @@ kaermorhen.ru###top-ban-container
 numberempire.com###toplink > h3[style="color: red"]
 ganoderma-mushrooms.com,korrektor.name,varicream.org###turn_advert.adblock
 czx.to###vdl_ctnr
+chipinfo.pro###warning
+scrin.org##.a-overlay
 vsaduidoma.com##.ABD_display_wrapper
 eurabota.com##.abtop
 sprashivalka.com##.ad
 topcraft.ru##.ad-info
 cc-fan.ru,cc-fan.tv,cn-fan.ru,fox-fan.ru,goodfon.ru,satsis.info,swordmaster.org##.adb
 vsadu.ru##.adb-block
-andevice.ru##.adb-def
+andevice.ru,dietdo.ru##.adb-def
 tuchkatv.ru##.adb_m
 brazzers-hdx.club##.adblck
 forum.qrz.ru,hentaiz.org,life.ru,mastergrad.com,tvfeed.in##.adblock
 exler.ru##.adblock-pls
 zakon.kz##.adblock_alert
+ogorod.ru##.adblock_popup_warning
 hentaiz.org##.adblocker
 kubik3.ru##.adbs
 print-post.com##.addbl
@@ -10348,28 +10359,32 @@ print-post.com##.addbl
 rusrek.com##.alert
 benfilm.net##.alert-block
 stroi-help.ru##.alert_warn
+ria.ru##.antiblock
 rufilmtv.org##.attention
 mel.fm##.b-ad-space__placeholder
 ixbt.com##.b-blockadblock
 d3.ru##.b-promo__placeholder
 cs-amba.ru##.banka
+it-actual.ru##.blok > div[class^="bl-"]
 electric-house.ru##.blok_forum > div[style]
-it-actual.ru##.blok > .blok-1
 audio-hi-fi.ru,electro-sila.ru##.blok_new > div[style]
 rutor1.ru##.box_in > .text > p > font
 tsn.ua##.c-aside-embed
+kanobu.ru##.c-moneyPlace_empty
 kinoafisha.info,tvcook.ru##.cat
-autonews.ru,rbc.ru,rbcplus.ru##.checkad_info
+autonews.ru,rbc.ru,rbcplus.ru,sportrbc.ru##.checkad_info
 rusopen.com##.classblsi.addshr
 smotrisport.online,smotrisport.tv##.dont-add-our-site-pls
 goha.ru#@#.goha_ads
 goha.ru#@#.goha_ads_acceptable
 themoviebay.ru##.is-danger.notification
+ivi.ru##.ivi-footer ~ div[class] > style + div[class]
 go.mail.ru##.js-adb-msg
 space.utema.ru##.main-content-padding > div[class]:not([itemprop])
 megatest.online##.msg-AdBlock
 ykt.ru##.n-banner--adblocked
-animeland.su,itcats.ru,noadsradio.ru,sharkgame.ru,w10.jeanzzz.ru##.no-adb
+animeland.su,itcats.ru,nekto.me,noadsradio.ru,sharkgame.ru,w10.jeanzzz.ru##.no-adb
+mail.rambler.ru##.notification-warning
 delfi.lv##.notification-widget
 radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-root .notify
 radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-root .notify *
@@ -10378,6 +10393,8 @@ music.yandex.by,music.yandex.kz,music.yandex.ru,music.yandex.ua##.page-root > .n
 alexfilm.cc##.panel-primary
 darkteam.net##.pls_rmv
 animedub.ru##.poverh
+015.by,023.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04596.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,05161.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,0623.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,0652.ua,0692.ua,1rnd.ru,3652.ru,3654.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7232.kz,8422city.ru,anapa.life,angarsk38.ru,bazhopol.ru,city01.am,city41.ru,comores24.com,go01.ru,go11.kz,go212.by,go216.by,go26.ru,go31.ru,go61.ru,godublin.info,golondon.info,goriga.info,gorod3466.ru,gorodarmavir.ru,goroddomodedovo.ru,gorodpushkin.ru,goshymkent.kz,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,infolyubertsy.ru,inform69.ru,vilniuje.info,yocity12.ru##.pray-container
+webdesign-master.ru##.preloader ~ div[class] > p
 pythonworld.ru##.pythonworld-contributor
 fanfics.me##.red.nodata
 101.ru##.showMessageAdBlock
@@ -10388,39 +10405,52 @@ xn--80aikhbrhr.net,кинокрад.net##.warning-adblock-box
 forum.bestflowers.ru##.xenOverlay
 /api/scripts/mainjs?token$script,domain=liveresult.ru
 /cookie_check.min.js$domain=acetv.me
-/forum/docs/requests.js$script,domain=nnm-club.lib|nnm-club.me|nnm-club.name|nnm-club.tv|nnmclub.to|nnmclub.tv|nontorclub.in.net
+/forum/docs/requests.js$script,domain=nnm-club-me.appspot.com|nnm-club.lib|nnm-club.me|nnm-club.name|nnm-club.tv|nnm-club.ws|nnmclub.to|nnmclub.tv|nontorclub.in.net
 /fuckadblock.js$domain=ace-stream.tv
+@@/pagead2.$domain=autonews.ru|rbc.ru|sportrbc.ru
+@@||adservice.google.*/adsid/integrator.js$script,domain=autonews.ru|rbc.ru|sportrbc.ru
+@@||content.rbc.medialand.ru/templates_*/ads.gif$image,domain=autonews.ru|rbc.ru|sportrbc.ru
 @@||goha.ru/app/video/adblock.teaser.js|$script,domain=goha.ru
+@@||rbk.ru^*/ads/ads.js?|$script,domain=autonews.ru|rbc.ru|rbcplus.ru|sportrbc.ru
+@@||securepubads.g.doubleclick.net/gampad/ads?$domain=autonews.ru|rbc.ru|sportrbc.ru
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=autonews.ru|rbc.ru|sportrbc.ru
+@@||tpc.googlesyndication.com^$image,domain=autonews.ru|rbc.ru|sportrbc.ru
 @@||sports.ru^*/adfox.$xmlhttprequest
+@@||target.smi2.net/client/target.js|$script,domain=autonews.ru|rbc.ru|sportrbc.ru
+@@||target.smi2.net/client/ttag.js|$script,domain=autonews.ru|rbc.ru|sportrbc.ru
 mycrib.ru,piggy-bank.online##[data-type="anti-abp"]
 lr-club.com##a[href="https://adblockplus.org/ru/faq_basics#disable"]
+drive2.ru##a[href][target="_blank"] > img[src][style^="width: 100%; height: auto;"][style*="vertical-align: middle; max-width: 240px;"]
 pic4you.ru,pic5you.ru##body > #bb
 forum.vip-cxema.org##body > #document_modal.modal,#some_ad_block_key_popup
 it-enginer.ru##body > #modal[style*="blur"]
-ivi.ru##body > .bottom-popup
+nnm-club-me.appspot.com,nnm-club.lib,nnm-club.me,nnm-club.name,nnm-club.tv,nnm-club.ws,nnmclub.to,nnmclub.tv,nontorclub.in.net##body > .request
+newkaliningrad.ru##body > .soclinks + script + div[class]:not([id])
 swaego.ru##body > .special-message-wrapper
 ukr.net##body > .yellow-die
+poznamka.ru##body > [id]:not([class])[style^="z-index"]
 in-trend.biz##body > [id][style^="z-index"]
 fightnews.info##body > blockquote
+torrnado.win##body > div > .a-overlay
 olegon.ru##body > div:not([id]):not([class])[style^="color"][style*="position: fixed; width: 99%"]
 factorio.su##body > div[class][style*="background"][style*="display: block"]
 gdekluet.ru##body > div[class^="stop-block"]
 glav.su##body > div[id]:not([class])[style*="background"][style*="display: block"]
-logist.uxxo.ru,newdeaf-online.net,newsland.com##body > div[id]:not([class])[style="display: block;"]
+logist.uxxo.ru,maxpark.com,newdeaf-online.net,newsland.com##body > div[id]:not([class])[style="display: block;"]
 factorio.su##body > div[id][class][style*="background"][style*="visible"]
+gisher.org##body > div[id][class][style^="display"][style*="position"][style*="z-index"]
 gta.com.ua##body > div[id][style*="background"][style*="visible"]
 portfel.info##body > div[id][style="display: block;"]
 tut.by##body > div[style*="position: fixed;"][style*="right: 0;"]
-1snau.ru,bychico.net,dyrik.ru,ecosounds.net,fainaidea.com,in-drive.ru,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,tehnobzor.ru##body > div[style*="z-index"][style*="999999"]
-torrnado.win##body > div > .a-overlay
+1snau.ru,bychico.net,dyrik.ru,ecosounds.net,fainaidea.com,in-drive.ru,musecube.org,obozrevatel.com,oknotivi.ru,pogodnik.com,sandero.ru,tehnobzor.ru,turbominer.ru##body > div[style*="z-index"][style*="9999"]
 dugtor.ru##body > noindex
 lostfilm.tv##div[class^="alarm"]
 gismeteo.by,gismeteo.ru##div[class^="stopblock"]
 finfront.ru##div[class^="swal2"]
-sport.rbc.ru##div[data-name="adb_warn_sport"]
 eset-key.ru,politonline.ru,showmehow.ru##div[data-type="anti-abp"]
 savevideo.me##div[id^="ads_notice_"]
 acomics.ru##div[style*="/design/common/pic/please"]
+abc-people.com##div[style*="background-color"][style*="position"][style*="z-index"]
 pvcalc.ru##div[style^="position:fixed; top:0px; left:0px; opacity: 0.9;"]
 ph4.ru##div[style^="width: 728px; height: 90px;"]
 7sim.net##html > body ~ div
@@ -10428,8 +10458,8 @@ d3.ru##section[data-uid="ad"]
 d3.ru##section[data-uid="extraAd"]
 ph4.ru##table[width][height="90"][style]
 bigpuzzle.ru##td[valign="top"][width="200px"][height="600"] > div[style]
+tproger.ru#?#article.type-post:-abp-has([href="/adblock"])
 www.qrz.ru#?#.content_row > div[class]:-abp-has(> .inner > a[href="/help/adblock/"])
-newkaliningrad.ru#?#div[class]:-abp-has(> h4:-abp-contains(/adblock!/i))
 ||adscat.ru^$third-party
 ||animeteatr.ru/a-detector/
 ||anivisual.net/mim*.js|$script,domain=anivisual.net
@@ -10440,6 +10470,8 @@ newkaliningrad.ru#?#div[class]:-abp-has(> h4:-abp-contains(/adblock!/i))
 ||kontrolnaya-rabota.ru^*/fuckadblock.js$script
 ||kontrolnaya-rabota.ru^*/toastr.$script,stylesheet
 ||mhelp.kz/wp-content/plugins/wp-adblock-dedect/
+||nnm-club.ws/forum/docs/requests.js
+||olegon.ru/jscookie.js
 ||pwnews.net/des/antiblock.js$script
 ||rusnext.ru/advar.js$script
 ||sdamgia.ru/img/blockadblock_
@@ -10854,8 +10886,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 bimg.abv.bg
 0.0.0.0 ca.abv.bg
 0.0.0.0 track.acclaimnetwork.com
-0.0.0.0 accuserveadsystem.com
-0.0.0.0 www.accuserveadsystem.com
 0.0.0.0 achmedia.com
 0.0.0.0 csh.actiondesk.com
 0.0.0.0 ads.activepower.net
@@ -10878,6 +10908,7 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 show.adclick.lv
 0.0.0.0 static.adclick.lv
 0.0.0.0 www.adclick.lv
+0.0.0.0 adclicks.io
 0.0.0.0 servedby.adcombination.com
 0.0.0.0 adcomplete.com
 0.0.0.0 www.adcomplete.com
@@ -10886,7 +10917,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ct1.addthis.com
 0.0.0.0 static.uk.addynamo.com
 0.0.0.0 adexc.net
-0.0.0.0 www.adexit.com
 0.0.0.0 s.adexpert.cz
 0.0.0.0 static.adfclick1.com
 0.0.0.0 222-33544_999.pub.adfirmative.com
@@ -10902,7 +10932,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 adforce.ru
 0.0.0.0 ads.adfox.ru
 0.0.0.0 gazeta.adfox.ru
-0.0.0.0 p.adframesrc.com
 0.0.0.0 s.adframesrc.com
 0.0.0.0 media.adfrontiers.com
 0.0.0.0 www.adgitize.com
@@ -11025,7 +11054,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 js.adscale.de
 0.0.0.0 ih.adscale.de
 0.0.0.0 adscendmedia.com
-0.0.0.0 adservicedomain.info
 0.0.0.0 adserver-voice-online.co.uk
 0.0.0.0 adsfac.net #[Facilitate Tracking Code]
 0.0.0.0 adsgangsta.com
@@ -11042,7 +11070,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.adtiger.de
 0.0.0.0 www.adtiger.de
 0.0.0.0 ad.adtoma.com
-0.0.0.0 au-01.adtomafusion.com
 0.0.0.0 bn-01.adtomafusion.com
 0.0.0.0 rek.adtotal.pl
 0.0.0.0 www.adtrade.net
@@ -11147,7 +11174,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 junior.apk.net
 0.0.0.0 openx.apollo.lv
 0.0.0.0 five.partner.archive-it.org
-0.0.0.0 ads.asia1.com.sg
 0.0.0.0 ads.ask.com
 0.0.0.0 stats.asp24.pl
 0.0.0.0 ads.aspalliance.com
@@ -11159,7 +11185,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 p.ato.mx
 0.0.0.0 s.ato.mx
 0.0.0.0 ads.auctionads.com
-0.0.0.0 banners.audioholics.com
 0.0.0.0 ad.auditude.com
 0.0.0.0 ads.auctioncity.co.nz
 0.0.0.0 d.audienceiq.com
@@ -11173,7 +11198,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 rev.avsforum.com
 0.0.0.0 ads.avusa.co.za
 0.0.0.0 analytics.aweber.com
-0.0.0.0 rotator.axiatraders.com
 0.0.0.0 tracker.azet.sk
 0.0.0.0 www.azmsoft.com
 0.0.0.0 ads.badische-zeitung.de
@@ -11241,8 +11265,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 api.bigmobileads.com
 0.0.0.0 banex.bikers-engine.com
 0.0.0.0 intext.billboard.cz
-0.0.0.0 code.intext.billboard.cz
-0.0.0.0 bbcdn.code.intext.billboard.cz
 0.0.0.0 view.binlayer.com
 0.0.0.0 ads.biscom.net
 0.0.0.0 dc.bizjournals.com
@@ -11260,7 +11282,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 pixel.blog.hu
 0.0.0.0 pcbutts1-therealtruth.blogspot.com
 0.0.0.0 ads.blogtalkradio.com
-0.0.0.0 ox-d.blogtalkradio.com
 0.0.0.0 adserver.bloodhorse.com
 0.0.0.0 stats.bluebillywig.com
 0.0.0.0 watershed.bm23.com
@@ -11315,7 +11336,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 srv.carbonads.net
 0.0.0.0 ads.cars.com
-0.0.0.0 cashonads.com
 0.0.0.0 banner.casinodelrio.com
 0.0.0.0 adv.casinopays.com
 0.0.0.0 www.casinotropez.com #[Tracking.Cookie]
@@ -11386,7 +11406,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.count24.de
 0.0.0.0 www.countit.ch
 0.0.0.0 www.counter-gratis.com #[Tracking.Cookie]
-0.0.0.0 www.counter4you.net
 0.0.0.0 cdn.dmpcounter.com
 0.0.0.0 www.counter.cz
 0.0.0.0 connectionzone.com
@@ -11401,7 +11420,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 sh.creativcdn.net
 0.0.0.0 adverts.creativemark.co.uk
 0.0.0.0 ads.crisppremium.com
-0.0.0.0 ox-d.crisppremium.com
 0.0.0.0 www.crm-metrix.fr
 0.0.0.0 stg.widget.crowdignite.com
 0.0.0.0 ads.crossworxs.eu
@@ -11416,9 +11434,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 t.dailymail.co.uk
 0.0.0.0 rta.dailymail.co.uk
 0.0.0.0 ted.dailymail.co.uk
-0.0.0.0 ads.darikweb.com
-0.0.0.0 sync.darikweb.com
-0.0.0.0 www1.darikweb.com
 0.0.0.0 www.dataforce.net #[Spamdexing]
 0.0.0.0 tag.datariver.ru
 0.0.0.0 banner.date.com
@@ -11513,8 +11528,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.e-go.gr
 0.0.0.0 stats.e-go.gr
 0.0.0.0 eisenstein.dk #[tracking.ping]
-0.0.0.0 ad.e-kolay.net
-0.0.0.0 adonline.e-kolay.net
 0.0.0.0 global.ekmpinpoint.com
 0.0.0.0 ads2.ekologia.pl
 0.0.0.0 stat.ekologia.pl
@@ -11564,7 +11577,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 geoads.eurorevenue.com
 0.0.0.0 advert.eurotip.cz
 0.0.0.0 www.euros4click.de
-0.0.0.0 ad.eurosport.com
 0.0.0.0 pixel.everesttech.net
 0.0.0.0 pixel-user-1039.everesttech.net
 0.0.0.0 venetian.evyy.net
@@ -11667,7 +11679,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 adv.gazeta.pl
 0.0.0.0 analytics.gazeta.pl
 0.0.0.0 mklik.gazeta.pl
-0.0.0.0 top.gde.ru
 0.0.0.0 geoip-db.com
 0.0.0.0 www.geoplugin.net
 0.0.0.0 adv.gepime.com
@@ -11706,7 +11717,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.gorillavid.in
 0.0.0.0 adtools.gossipkings.com
 0.0.0.0 webcounter.goweb.de
-0.0.0.0 www.gpr.hu
 0.0.0.0 reed-cw.grapeshot.co.uk
 0.0.0.0 adv.gratuito.st
 0.0.0.0 grmtech.net
@@ -11826,7 +11836,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.insmarket.bg
 0.0.0.0 rs.instantservice.com
 0.0.0.0 ads.inspirestudio.net
-0.0.0.0 counter.internet.ge
 0.0.0.0 indiads.com
 0.0.0.0 ads.inviziads.com
 0.0.0.0 www.imiclk.com
@@ -11836,7 +11845,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.intelli-tracker.com
 0.0.0.0 geo.interia.pl
 0.0.0.0 iwa.hit.interia.pl
-0.0.0.0 www.intera-x.com
 0.0.0.0 cdn.interactivemedia.net
 0.0.0.0 newadserver.interfree.it #[Adcycle]
 0.0.0.0 intermediads.com
@@ -11848,7 +11856,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ad01.investor.bg
 0.0.0.0 s1.inviziads.com
 0.0.0.0 api.ipinfodb.com
-0.0.0.0 ip-api.com
 0.0.0.0 pro.ip-api.com
 0.0.0.0 ads.ipowerweb.com
 0.0.0.0 adserver.iprom.net
@@ -11889,7 +11896,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ck.juicyads.com
 0.0.0.0 js.juicyads.com
 0.0.0.0 ad.jugem.jp
-0.0.0.0 a.jumptap.com
 0.0.0.0 nl.ads.justpremium.com
 0.0.0.0 tracking.justpremium.com
 0.0.0.0 ads.justpremium.nl
@@ -11981,7 +11987,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.livescore.com
 0.0.0.0 ad.lkqd.net
 0.0.0.0 omnituretrack.local.com
-0.0.0.0 w10.localadbuy.com
 0.0.0.0 err.lolipop.jp
 0.0.0.0 adserver.lonuncavisto.com
 0.0.0.0 r.looksmart.com
@@ -11995,7 +12000,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 luxup.ru
 0.0.0.0 is.luxup.ru
 0.0.0.0 m2k.ru
-0.0.0.0 images.m4n.nl
 0.0.0.0 ad.m5prod.net
 0.0.0.0 ad.m-adx.com
 0.0.0.0 www3.macys.com #[WebBug.eluminate]
@@ -12006,7 +12010,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.mainadv.com
 0.0.0.0 ads.maleflixxx.tv
 0.0.0.0 adv.mangoadv.com
-0.0.0.0 stats.manticoretechnology.com
 0.0.0.0 anapixel.marca.com
 0.0.0.0 pixelcounter.marca.com
 0.0.0.0 ads.marica.bg
@@ -12048,7 +12051,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 mdctrail.com
 0.0.0.0 wsp.mgid.com
 0.0.0.0 pubs.mgn.net #[Grolier Network]
-0.0.0.0 beacon.mhtr.be
 0.0.0.0 ads.miarroba.com
 0.0.0.0 send.microad.jp
 0.0.0.0 ssend.microad.jp
@@ -12085,7 +12087,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.msgtag.com
 0.0.0.0 bms.msk.bg
 0.0.0.0 no.counter.mtgnewmedia.se
-0.0.0.0 www.myclickbankads.com
 0.0.0.0 www.mycpvlife.com
 0.0.0.0 get.mycounter.ua
 0.0.0.0 scripts.mycounter.ua
@@ -12147,7 +12148,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 evbeacon.networksolutions.com
 0.0.0.0 ads.newdream.net
 0.0.0.0 www.newclick.com
-0.0.0.0 beacon-5.newrelic.com
 0.0.0.0 ads.newsint.co.uk
 0.0.0.0 delivery.ad.newsnow.net
 0.0.0.0 b.nex.bg
@@ -12195,7 +12195,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.ogdenpubs.com
 0.0.0.0 counter.ok.ee
 0.0.0.0 ads.olx.com
-0.0.0.0 adserver.omroepflevoland.nl
 0.0.0.0 logo.onlinewebstat.com
 0.0.0.0 ads1.omdadget.com
 0.0.0.0 track.omguk.com
@@ -12267,7 +12266,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 errors.perfectgonzo.com
 0.0.0.0 ads.periodistadigital.com
 0.0.0.0 ads.persgroep.net
-0.0.0.0 utsdpp.persgroep.net
 0.0.0.0 pgssl.com
 0.0.0.0 pub.pgssl.com
 0.0.0.0 pharmacyrxone.com
@@ -12394,13 +12392,11 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 republer.com
 0.0.0.0 custom-wrs.api.responsys.net
 0.0.0.0 banners.resultonline.com
-0.0.0.0 retarcl.net
 0.0.0.0 retaraga.ru
 0.0.0.0 revcontent.com
 0.0.0.0 cdn.revcontent.com
 0.0.0.0 labs-cdn.revcontent.com
 0.0.0.0 www.revcontent.com
-0.0.0.0 ads.reviewcentre.com
 0.0.0.0 rem.rezonmedia.eu
 0.0.0.0 p.rfihub.com
 0.0.0.0 sync.rhythmxchange.com
@@ -12433,7 +12429,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 runslin.com
 0.0.0.0 banners.rushcommerce.com
 0.0.0.0 rutrk.org
-0.0.0.0 rvpadvertisingnetwork.com
 0.0.0.0 www.s2d6.com
 0.0.0.0 s4le.net
 0.0.0.0 ads.sagabg.net
@@ -12600,7 +12595,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 adserver.tele.net
 0.0.0.0 sdc.tele.net
 0.0.0.0 c2.tentaculos.net
-0.0.0.0 t1.tentaculos.net
 0.0.0.0 banner.terminal.hu
 0.0.0.0 stf.terra.com.br
 0.0.0.0 ad.terra.com.mx
@@ -12609,8 +12603,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.textads.biz
 0.0.0.0 www.textlink.cz
 0.0.0.0 ads.tdcanadatrust.com
-0.0.0.0 openad.tf1.fr #[RealMedia]
-0.0.0.0 openadext.tf1.fr
 0.0.0.0 adv.tgadvapps.it
 0.0.0.0 market2.the-adult-company.com
 0.0.0.0 media.the-adult-company.com
@@ -12644,10 +12636,7 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.toplist.sk
 0.0.0.0 counter.topphoto.ru
 0.0.0.0 www.top25.ro
-0.0.0.0 www.top99.ro
 0.0.0.0 www.top100.ro
-0.0.0.0 www.top300.ro
-0.0.0.0 www.topadult.ro
 0.0.0.0 ads.topnovini.bg
 0.0.0.0 stats.topofblogs.com
 0.0.0.0 www.top-rank.pl
@@ -13451,14 +13440,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ade.clmbtech.com
 0.0.0.0 fast.timeinc.demdex.net
 0.0.0.0 cdn-akamai.mookie1.com
-0.0.0.0 rainbow-de.mythings.com
-0.0.0.0 rainbow-es.mythings.com
-0.0.0.0 rainbow-fi.mythings.com
-0.0.0.0 rainbow-mx.mythings.com
-0.0.0.0 rainbow-no.mythings.com
-0.0.0.0 rainbow-ru-ak.mythings.com
-0.0.0.0 rainbow-ru.mythings.com
-0.0.0.0 rainbow-sg.mythings.com
 0.0.0.0 ac.realvu.net
 0.0.0.0 cdn.taboola.com
 0.0.0.0 c.webtrends.com
@@ -13475,7 +13456,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 cdn.betrad.com
 0.0.0.0 c.betrad.com
 0.0.0.0 ads.static.blip.tv
-0.0.0.0 cdn1.clkcln.com
 0.0.0.0 fast.ecs.demdex.net
 0.0.0.0 fast.ford.demdex.net
 0.0.0.0 fast.td.demdex.net
@@ -13550,8 +13530,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ads.cdnslate.com
 0.0.0.0 cc.chango.com
 0.0.0.0 cdnssl.clicktale.net
-0.0.0.0 cdn1.clkads.com
-0.0.0.0 cdn1.clkmon.com
 0.0.0.0 cdn1.clkoffers.com
 0.0.0.0 cdn1.clkrev.com
 0.0.0.0 tiads.sportsillustrated.cnn.com
@@ -13611,8 +13589,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 sb.monetate.net
 0.0.0.0 se.monetate.net
 0.0.0.0 ads2.msads.net
-0.0.0.0 cdn.mxpnl.com
-0.0.0.0 rainbow-nl.mythings.com
 0.0.0.0 s.ntv.io
 0.0.0.0 adcache.nymag.com
 0.0.0.0 cdn.optimizely.com
@@ -14058,6 +14034,7 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 mcafee-home.7eer.net
 0.0.0.0 blobar.org
 0.0.0.0 api.circularhub.com
+0.0.0.0 mscom.demdex.net
 0.0.0.0 schwab.demdex.net
 0.0.0.0 geo.qualaroo.com
 0.0.0.0 collect.tealiumiq.com
@@ -14279,7 +14256,7 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 cdn.accelerator.arsdev.net
 0.0.0.0 d1v9u0bgi1uimx.cloudfront.net
 0.0.0.0 d169bbxks24g2u.cloudfront.net
-0.0.0.0 d2c8v52ll5s99u.cloudfront.net #[comscore][affects arstechnica.com]
+0.0.0.0 d2c8v52ll5s99u.cloudfront.net #[comscore][affects arstechnica/wired/vogue/vanity fair]
 0.0.0.0 d2cgumzzqhgmdu.cloudfront.net
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
 0.0.0.0 d2tgfbvjf3q6hn.cloudfront.net
@@ -14438,7 +14415,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 rumds.wpdigital.net
 0.0.0.0 i.yldbt.com
 0.0.0.0 z2.zedo.com
-0.0.0.0 segment-data.zqtk.net
 0.0.0.0 s.206ads.com
 0.0.0.0 ib.3lift.com
 0.0.0.0 optimize.adpushup.com
@@ -14670,6 +14646,7 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 st.smartredirect.de
 0.0.0.0 tracking.sokrati.com
 0.0.0.0 traffic-offers.com
+0.0.0.0 collector-2398.tvsquared.com
 0.0.0.0 konnect.videoplaza.tv
 0.0.0.0 trk.vidible.tv
 0.0.0.0 scripts.webspectator.com
@@ -14789,12 +14766,8 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.ugdturner.com
 0.0.0.0 gdyn.veryfunnyads.com
 0.0.0.0 dbs.advertising.com
-0.0.0.0 opera1-servedby.advertising.com
-0.0.0.0 rd.advertising.com
 0.0.0.0 servedby.advertising.com #[Tracking.Cookie]
 0.0.0.0 bf.mocda1.com
-0.0.0.0 adserve.advertising.com
-0.0.0.0 wap.advertising.com
 0.0.0.0 www.contextualclicks.com
 0.0.0.0 www.thesearchster.com
 0.0.0.0 ad.dc2.adtech.de
@@ -14862,17 +14835,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 v.landingzone.se
 0.0.0.0 ng3.ads.warnerbros.com
 0.0.0.0 tracking.kurier.at
-0.0.0.0 newsnetw.oewabox.at
-0.0.0.0 oe24.oewabox.at
-0.0.0.0 ooen.oewabox.at
-0.0.0.0 orf.oewabox.at
-0.0.0.0 qs.oewabox.at
-0.0.0.0 salzburg.oewabox.at
-0.0.0.0 sdo.oewabox.at
-0.0.0.0 sportat.oewabox.at
-0.0.0.0 tirolcom.oewabox.at
-0.0.0.0 top.oewabox.at
-0.0.0.0 willhab.oewabox.at
 0.0.0.0 hit-parade.com
 0.0.0.0 loga.hit-parade.com
 0.0.0.0 logp.hit-parade.com
@@ -15018,6 +14980,7 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ib.adnxs.com
 0.0.0.0 mob.adnxs.com
 0.0.0.0 nym1.ib.adnxs.com
+0.0.0.0 nym1-ib.adnxs.com
 0.0.0.0 sin1.g.adnxs.com
 0.0.0.0 go.adversal.com
 0.0.0.0 rtb-ads.avazu.net
@@ -15745,9 +15708,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 ppc-parked.domainsite.com #[Parking Service]
 0.0.0.0 vcontent.e-messenger.net
 0.0.0.0 ads.financialcontent.com
-0.0.0.0 adserver.finditquick.com
-0.0.0.0 partner.finditquick.com
-0.0.0.0 www.findit-quick.com
 0.0.0.0 id3103.com
 0.0.0.0 ad.internetradioinc.com
 0.0.0.0 click.linkstattrack.com
@@ -17125,14 +17085,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 tas-rs.toboads.com
 0.0.0.0 tas-si.toboads.com
 0.0.0.0 stat.axelspringer.hu
-0.0.0.0 www.best-top.hu
-0.0.0.0 bw.ads.t-online.de
-0.0.0.0 data.ads.t-online.de
-0.0.0.0 red.ads.t-online.de
-0.0.0.0 a.ads.t-online.de #[AdSolution-Website-Tag]
-0.0.0.0 admin.ads.t-online.de
-0.0.0.0 s.ads.t-online.de
-0.0.0.0 homepage.t-online.de
 0.0.0.0 banners.directnic.com #[WebBug][MVPS.Criteria]
 0.0.0.0 dnads.directnic.com
 0.0.0.0 stats.directnic.com
@@ -18571,13 +18523,11 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 asqrtl.nuggad.net
 0.0.0.0 axdget-sync.nuggad.net
 0.0.0.0 ebayit-dp.nuggad.net
-0.0.0.0 heise.nuggad.net
 0.0.0.0 lokalavisendk.nuggad.net
 0.0.0.0 lpm-francetv.nuggad.net
 0.0.0.0 lpm-lagardere.nuggad.net
 0.0.0.0 lpm-tf1.nuggad.net
 0.0.0.0 mediamond.nuggad.net
-0.0.0.0 mobilede-dp.nuggad.net
 0.0.0.0 n24se.nuggad.net
 0.0.0.0 naftemporiki.nuggad.net
 0.0.0.0 om.nuggad.net
@@ -18606,7 +18556,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 jobzdk.nuggad.net
 0.0.0.0 krone.nuggad.net
 0.0.0.0 medienhaus.nuggad.net
-0.0.0.0 mobilede.nuggad.net
 0.0.0.0 msnad.nuggad.net
 0.0.0.0 mtv.nuggad.net
 0.0.0.0 nettno.nuggad.net
@@ -20981,11 +20930,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 t1.trackalyzer.com
 0.0.0.0 t2.trackalyzer.com
 0.0.0.0 t3.trackalyzer.com
-0.0.0.0 beacon-1.newrelic.com
-0.0.0.0 beacon-2.newrelic.com
-0.0.0.0 beacon-3.newrelic.com
-0.0.0.0 beacon-4.newrelic.com
-0.0.0.0 beacon-6.newrelic.com
 0.0.0.0 www.skassets.com
 0.0.0.0 delivery.adrecover.com
 0.0.0.0 www.holika.com
@@ -21053,60 +20997,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 www.readnotify.com #[Email Tracker]
 0.0.0.0 xpostmail.com
 0.0.0.0 www.xtrafic.ro
-0.0.0.0 sitemeter.com #[WebBug]
-0.0.0.0 ads.sitemeter.com
-0.0.0.0 sm1.sitemeter.com
-0.0.0.0 sm2.sitemeter.com #[Analytics.Tracker]
-0.0.0.0 sm3.sitemeter.com
-0.0.0.0 sm4.sitemeter.com
-0.0.0.0 sm5.sitemeter.com
-0.0.0.0 sm6.sitemeter.com
-0.0.0.0 sm7.sitemeter.com
-0.0.0.0 sm8.sitemeter.com
-0.0.0.0 sm9.sitemeter.com
-0.0.0.0 s10.sitemeter.com
-0.0.0.0 s11.sitemeter.com
-0.0.0.0 s12.sitemeter.com
-0.0.0.0 s13.sitemeter.com
-0.0.0.0 s14.sitemeter.com
-0.0.0.0 s15.sitemeter.com
-0.0.0.0 s16.sitemeter.com
-0.0.0.0 s17.sitemeter.com
-0.0.0.0 s18.sitemeter.com
-0.0.0.0 s19.sitemeter.com
-0.0.0.0 s20.sitemeter.com
-0.0.0.0 s21.sitemeter.com
-0.0.0.0 s22.sitemeter.com
-0.0.0.0 s23.sitemeter.com
-0.0.0.0 s24.sitemeter.com
-0.0.0.0 s25.sitemeter.com
-0.0.0.0 s26.sitemeter.com
-0.0.0.0 s27.sitemeter.com
-0.0.0.0 s28.sitemeter.com
-0.0.0.0 s29.sitemeter.com
-0.0.0.0 s30.sitemeter.com
-0.0.0.0 s31.sitemeter.com
-0.0.0.0 s32.sitemeter.com
-0.0.0.0 s33.sitemeter.com
-0.0.0.0 s34.sitemeter.com
-0.0.0.0 s35.sitemeter.com
-0.0.0.0 s36.sitemeter.com
-0.0.0.0 s37.sitemeter.com
-0.0.0.0 s38.sitemeter.com
-0.0.0.0 s39.sitemeter.com
-0.0.0.0 s40.sitemeter.com
-0.0.0.0 s41.sitemeter.com
-0.0.0.0 s42.sitemeter.com
-0.0.0.0 s43.sitemeter.com
-0.0.0.0 s44.sitemeter.com
-0.0.0.0 s45.sitemeter.com
-0.0.0.0 s46.sitemeter.com
-0.0.0.0 s47.sitemeter.com
-0.0.0.0 s49.sitemeter.com
-0.0.0.0 s48.sitemeter.com
-0.0.0.0 s50.sitemeter.com
-0.0.0.0 s51.sitemeter.com
-0.0.0.0 www.sitemeter.com
 0.0.0.0 ia.spinbox.net
 0.0.0.0 netcomm.spinbox.net
 0.0.0.0 vsii.spinbox.net
@@ -21198,7 +21088,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 dnetshelter3.d.chango.com
 0.0.0.0 clkfeed.com
 0.0.0.0 clkoffers.com
-0.0.0.0 realtime.services.disqus.com
 0.0.0.0 tempest.services.disqus.com
 0.0.0.0 eclkmpbn.com
 0.0.0.0 eclkmpsa.com
@@ -21269,9 +21158,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 sstatic1.histats.com
 0.0.0.0 in-appadvertising.com
 0.0.0.0 widget6.linkwithin.com
-0.0.0.0 ad1.netshelter.net
-0.0.0.0 ad2.netshelter.net
-0.0.0.0 ad4.netshelter.net
 0.0.0.0 peerfly.com
 0.0.0.0 i.simpli.fi
 0.0.0.0 tracking.softwareprojects.com
@@ -21487,17 +21373,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 kt.tns-gallup.dk
 0.0.0.0 delfi.spring-tns.net
 0.0.0.0 err.spring-tns.net
-0.0.0.0 kainari.spring-tns.net
-0.0.0.0 kotikokki.spring-tns.net
-0.0.0.0 lehtimedia.spring-tns.net
-0.0.0.0 is.spring-tns.net
-0.0.0.0 mtv3.spring-tns.net
-0.0.0.0 myyjaosta.spring-tns.net
-0.0.0.0 postimees.spring-tns.net
-0.0.0.0 smf.spring-tns.net
-0.0.0.0 talsa.spring-tns.net
-0.0.0.0 telkku.spring-tns.net
-0.0.0.0 vuokraovi.spring-tns.net
 0.0.0.0 sdc.flysas.com
 0.0.0.0 piwik.onlinemagasinet.no #[Piwik.Analytics]
 0.0.0.0 dinsalgsvagt.adservinginternational.com
@@ -21776,15 +21651,6 @@ googletagservices.com/tag/js/gpt_mobile.js
 0.0.0.0 petsmovies.com
 0.0.0.0 zoomovies.org
 0.0.0.0 www.zoomovies.org
-0.0.0.0 dl.ezthemes.com #[AdWare.Win32.WebRebates.p]
-0.0.0.0 dl1.ezthemes.com #[Trojan-Downloader.Win32.Small.bke]
-0.0.0.0 ezthemes.ezthemes.com #[StopBadware.ezthemes]
-0.0.0.0 funskins.ezthemes.com
-0.0.0.0 galtthemes.ezthemes.com
-0.0.0.0 themexp.ezthemes.com
-0.0.0.0 topdesktop.ezthemes.com
-0.0.0.0 www.ezthemes.com #[Win32/Adware.RK.AN]
-0.0.0.0 www.themexp.org #[StopBadware.Warning]
 0.0.0.0 piwik.datawrapper.de #[Piwik.Analytics]
 0.0.0.0 tags.expo9.exponential.com
 0.0.0.0 tribalfusion.com #[Tracking.Cookie]
@@ -23887,18 +23753,73 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ~t-mobile.co.uk,~channel4.com,~amusingplanet.com,~apple.com,~sportsdirect.com,~burningcamel.com,~prosperitybanktx.com,~repubblica.it,~mail.google.com,~mail.mailig.ig.com.br##.ads
 @@||painelhost.uol.com.br^$document
 @@||sagenb.org^$document
+||grabify.link^$important
+||bmwforum.co^$important
+||leancoding.co^$important
+||spottyfly.com^$important
+||stopify.co^$important
+||yoütu.be^$important
+||starbucksiswrong.com^$important
+||starbucksisbadforyou.com^$important
+||bucks.as^$important
+||discörd.com^$important
+||minecräft.com^$important
+||freegiftcards.co^$important
+||disçordapp.com^$important
+||särahah.eu^$important
+||särahah.pl^$important
+||xda-developers.io^$important
+||quickmessage.us^important
+||fortnight.space^$important
+||fortnitechat.site^$important
+||youshouldclick.us^$important
+||joinmy.site^$important
+||watches-my.stream^$important
+||rëddït.com^$important
+||yoütu.be^$important
+||xda-developers.us^$important
 ||iplogger.org^$important
+||iplogger.com^$important
+||iplogger.ru^$important
 ||2no.co^$important
+||yip.su^$important
+||mapper.info^$important
 ||ezstat.ru^$important
-||iplogger.info^$important
 ||02ip.ru^$important
 ||iplo.ru^$important
 ||iplis.ru^$important
-||iplogger.com^$important
-||iplogger.ru^$important
-||iplogger.org^$important
-||pgrabber.ru^$important
-||grabify.link^$important
+||iplogger.info^$important
+||ipgrabber.ru^$important
+||ipgraber.ru^$important
+||skypegrab.net^$important
+||fortnite-stats.site^$important
+||minecraft-skins.xyz^$important
+||booter.icu^$important
+||discordcrypt.xyz^$important
+||gyazo.nl^$important
+||yȯutube.com^$important
+||blasze.tk^$important
+||blasze.com^$imporant
+||myiptest.com/img.php^$important
+||ikwyd.com^$imporant
+||ps3cfw.com^$important
+||imageshack.ml^$important
+||hs.vc^$important 
+||paypal.sellbitcoins.com^$important 
+||webprofile.me^$important 
+||postimage.co^$important
+||publicwiki.m^$important 
+||publicwiki.me^$important 
+||spötify.com^$important
+||quickmessage.io^$important
+||yoütübe.co^$important
+||yoütübe.com^$important
+||cyberh1.xyz^$important
+||iany.pl^$important
+||my-alts.eu^$important
+||l-imgur.pl^$important
+||exec-true.eu^$important
+||tigercore.eu^$important
 ||ip.jlynx.net^$important
 ||deviantartt.ml^$important
 ||dropboxx.lm ^$important
@@ -23918,22 +23839,16 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ||bvog.com^$important
 ||hondachat.com^$important
 ||youramonkey.com^$important
-||blasze.tk^$important
-||myiptest.com/img.php^$important
 ||ip-grabber.com^$important
 ||imgurl.us^$important
-||skypegrab.net^$important
 ||sciencefuture.tk^$important
 ||stresser.science^$important
-||imageshack.ml^$important
 ||viphackforums.xyz^$important
 ||gtadb.net^$important
 ||fotocerdas.com^$important
 ||parlament.usa.cc^$important
-||hs.vc^$important
 ||community.hackersclub.net^$important
 ||login.anal-porn.info^$important
-||paypal.sellbitcoins.com^$important
 ||panel.teamspeak.bz^$important
 ||files.uploads.ws^$important
 ||media.appspot.com^$important
@@ -23943,7 +23858,6 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ||battlė.net^$important
 ||dank.host^$important
 ||r1p.pw^$important
-||webprofile.me^$important
 ||anonymousforum.pw^$important
 ||ts3free.top^$important
 ||viphackforum.xyz^$important
@@ -23951,7 +23865,6 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ||privatexmpp.me^$important
 ||topstreaming.us^$important
 ||topcdn.biz^$important
-||postimage.co^$important
 ||hackernews.online^$important
 ||hdblog.tech^$important
 ||sexy18.webcam^$important
@@ -23962,13 +23875,41 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ||spoofing.host^$important
 ||cubeupload.xyz^$important
 ||exploit-db.xyz^$important
+||disċordapp.com^$important
+||bucks.as^$important
+||twiţter.com^$important
+||sĸype.com^$important
+||transferfiles.cloud^$important
+||tvshare.co^$important
+||twitch-stats.stream^$important
+||videoblog.tech^$important
+||yoütübe.co^$important
+||yoütübe.com^$important
+||yòutube.com^$important
+||ìṃgur.com^$important
+||ġooģle.com^$important
+||rikiki.net^$important
 ||gyazoo.xyz^$important
 ||ipddoser.xyz^$important
 ||skypecracker.xyz^$important
 ||ipsnatcher.com^$important
 ||skidpaste.org^$important
 ||cloudfsx.com^$important
-||ps3cfw.com^$important
+||anonfiles.download^$important
+||bbcbloggers.co.uk^$important
+||csgopot.zone^$important
+||downthe.design^$important
+||gameskeys.shop^$important
+||hbotv.co^$important
+||i.imger.me^$important
+||imger.me^$important
+||mailble.com^$important
+||proxyfill.co^$important
+||shört.co^$important
+||spötify.com^$important
+||starbucks.bio^$important
+||steamtools.co^$important
+||fuglekos.com^$important
 ||orcahub.com^$important
 ||vbooter.org^$important
 ||orboot.pw^$important
@@ -23980,8 +23921,10 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ||freebooter.pro^$important
 ||bootyou.net^$important
 ||critical-boot.com^$important
+||boot4free.com^$important
 ||aruljohn.com/widget/zip/*
 ||aruljohn.com/widget/ip/*
+||fuglekos.com^$important
 ||go.budurl.co^$important
 ||dr.tl/*^$important
 ||bit.do/*^$important
@@ -23994,7 +23937,7 @@ wordaligned.org##IMG[src="/images/feed.png"]
 ||biturl.io^$important
 ||hackforu.ms^$important
 ||tldr.ly^$important
-||fuglekos.com/profile/*
+||wzurl.me^$important
 iplogger.org
 2no.co
 ezstat.ru
@@ -24826,7 +24769,7 @@ zoon.ru##.service-box-white > .box-padding
 ||i.imgur.com/LBJRquL.png
 ||i.picresize.com/images/2015/11/25/8o3ng.png
 ||i.imgur.com/vo7RKzM.gif
-||www.serraniel.com/interface/image.php?id=120
+||www.serraniel.com/interface/image.php?id=
 ||fs5.directupload.net/images/151012/spqgk4c2.gif
 ||i.epvpimg.com/IkGoh.gif
 ||i.epvpimg.com/u691e.gif
@@ -24895,6 +24838,815 @@ zoon.ru##.service-box-white > .box-padding
 ||www.elitepvpers.com/forum/customavatars/avatar5829706_3.gif
 ||i.epvpimg.com/ClyGc.png
 ||i.epvpimg.com/lJ5De.png
+||i.epvpimg.com/brDVd.png
+||www.duckroad.net/sig.php?char=LadyDanna
+||i.epvpimg.com/Ix4ec.png
+||i.epvpimg.com/zfxnd.gif
+||i.epvpimg.com/ojxEe.gif
+||i.epvpimg.com/a2MQb.jpg
+||i.epvpimg.com/lAeqd.png
+||i.epvpimg.com/F8qpc.png
+||luna-hosting.io/file/lunabanner.gif
+||i.epvpimg.com/zUv4h.gif
+||i.epvpimg.com/ErvZg.gif
+||mydailylikes.com/stats-banner.php?user=admin
+||i.epvpimg.com/0z2Rf.png
+||i.epvpimg.com/jnzub.png
+||i.epvpimg.com/iHfXe.gif
+||fs1.directupload.net/images/150814/mgnlum3x.png
+||epvpimg.com/pJIHh.jpg
+||s1.directupload.net/images/130217/69dyq9gf.png
+||i.epvpimg.com/Gh8Hc.png
+||i.imgur.com/Mgnbpkb.gif
+||img5.fotos-hochladen.net/uploads/maxresdefaultj7em8fs92iq.png
+||i.epvpimg.com/jGigd.gif
+||i.imgur.com/vBKBxFQ.png
+||buyviewsreview.com/wp-content/uploads/2013/09/1378248895_youtube_six_color-300x300.png
+||i.epvpimg.com/cDMOg.png
+||i.epvpimg.com/ANPmc.png
+||i.epvpimg.com/Als9e.gif
+||s14.directupload.net/images/120814/nxlzibdz.png
+||s7.directupload.net/images/120814/m2qtqs9n.png
+||i.epvpimg.com/3btMc.gif
+||abload.de/img/xmbzbgsu2c.gif
+||2.bp.blogspot.com/-vcI-ZWJxOvY/UYMsIUPgHTI/AAAAAAAAAAU/_e5FmNHdRPk/s1600/Upload+ed.png
+||i.epvpimg.com/nor1e.gif
+||i.epvpimg.com/RXV6f.png
+||i.epvpimg.com/Qxccb.png
+||i.epvpimg.com/mh5Fb.png
+||i.epvpimg.com/FkAkd.gif
+||i.epvpimg.com/kQU4e.png
+||i.epvpimg.com/6yadd.png
+||i.epvpimg.com/eD9vg.png
+||i.epvpimg.com/BQpwh.png
+||media.giphy.com/media/3o8dpaLYo78QcAEQMg/giphy.gif
+||i.epvpimg.com/FpyJd.gif
+||fs1.directupload.net/images/150827/zuwe6xtu.jpg
+||i.epvpimg.com/auGEg.gif
+||i.epvpimg.com/Cymld.jpg
+||i.epvpimg.com/8SV6f.jpg
+||i.epvpimg.com/xxdif.gif
+||i.epvpimg.com/c8lod.png
+||i.epvpimg.com/xcQFg.gif
+||i.epvpimg.com/Q533h.png
+||i.epvpimg.com/tz4Kc.gif
+||i.epvpimg.com/mhZ5e.gif
+||minato.work/rapido.gif
+||puu.sh/m1fUS/8b2cd4e293.jpg
+||minecraftservers.org/banners/1210701394605642.gif
+||s7.directupload.net/images/140919/zdw5rbk3.gif
+||i.epvpimg.com/zSRLe.gif
+||i.imgur.com/o0RU3Qe.png
+||fs1.directupload.net/images/150618/cnspy7ok.png
+||i.epvpimg.com/6KLje.png
+||i.epvpimg.com/GunQc.png
+||i.epvpimg.com/Bz0gh.gif
+||i.epvpimg.com/myume.gif
+||fs5.directupload.net/images/151217/v4m26yyu.gif
+||fs5.directupload.net/images/151210/ua42qa9t.gif
+||wbb-elite.de/wcf/images/wbb-elite/wbb-elite.png
+||i.epvpimg.com/Ylmrg.png
+||i.epvpimg.com/shvrb.gif
+||i.epvpimg.com/J6T1c.png
+||i.epvpimg.com/GIOJd.png
+||c0wtschpotato.de/images/push.gif
+||i.imgur.com/8LxJOtX.gif
+||i.epvpimg.com/J0C3e.png
+||www.fotos-hochladen.net/uploads/nurhandelsignaw8lshk0bga.jpg
+||www.elitepvpers.com/forum/customavatars/avatar6685225_1.gif
+||i.epvpimg.com/NiWDc.png
+||i.epvpimg.com/YiHUg.png
+||i.epvpimg.com/276Fd.gif
+||i.epvpimg.com/OXNfd.png
+||i.epvpimg.com/byO4b.jpg
+||themokko.de/Dev/Signatur/sig.gif
+||i41.tinypic.com/2dmd1ls.png
+||fs5.directupload.net/images/151103/jncttwen.png
+||i.imgur.com/GqiesdY.jpg?1
+||i.epvpimg.com/04Arb.gif
+||i.epvpimg.com/ohDXf.gif
+||i.imgur.com/phypZn5.gif
+||i.epvpimg.com/WZkkg.png
+||fs1.directupload.net/images/150218/ugkwue65.png
+||www.esportspools.com/mypicks/102150513010043611/102150415370000057/picks.png
+||i.epvpimg.com/cWPfg.gif
+||i.epvpimg.com/JRBHc.gif
+||i.imgur.com/5tBNyUy.png
+||imgur.com/AlhvvA5.png
+||images.weserv.nl/?url=zmniejszacz.pl%2Fzdjecie%2F342%2F3812059_2.png
+||images.weserv.nl/?url=zmniejszacz.pl%2Fzdjecie%2F342%2F3812058_3.png
+||images.weserv.nl/?url=zmniejszacz.pl%2Fzdjecie%2F342%2F3812057_1.png
+||images.weserv.nl/?url=zmniejszacz.pl%2Fzdjecie%2F342%2F3812060_5.png
+||images.weserv.nl/?url=nsa38.casimages.com%2Fimg%2F2016%2F01%2F06%2F160106034916952685.gif
+||images.weserv.nl/?url=nociifhack.altervista.org%2Fimg%2F
+||images.weserv.nl/?url=abload.de%2Fimg%2Fakacube9sqmr.jpg
+||images.weserv.nl/?url=www.serraniel.com%2Finterface%2Fimage.php
+||i.epvpimg.com/cQY7b.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F151210%2Fua42qa9t.gif
+||images.weserv.nl/?url=i1267.photobucket.com%2Falbums%2Fjj558%2Fazad720%2FSignature_zps34bc4f90.png
+||images.weserv.nl/?url=nsa37.casimages.com%2Fimg%2F2016%2F01%2F12%2F160112105214462417.jpg
+||i.epvpimg.com/Y8Fmg.png
+||i.epvpimg.com/80d9g.png
+||i.epvpimg.com/109cb.gif
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fpreview2bihf8kcme.jpg
+||i.epvpimg.com/k2lih.png
+||i.epvpimg.com/Lnsxd.gif
+||i.epvpimg.com/WMy1e.png
+||i.epvpimg.com/zLHBb.gif
+||i.imgur.com/0NqwAxe.jpg
+||i.imgur.com/b4DE6fB.gif
+||i.epvpimg.com/IHeze.gif
+||i.imgur.com/cltMpbG.jpg
+||i.epvpimg.com/yOARe.jpg
+de.anisearch.com###rtopA
+||images.weserv.nl/?url=signature.cltrec.de
+||i.imgur.com/ArQWcsw.gif
+||i.imgur.com/dkK17bL.jpg
+||i.imgur.com/Z506bri.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F151012%2Fzpks4847.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F151012%2Fw47dvatb.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F151012%2Fmcv73vo3.png
+||i.imgur.com/mhrNxb8.png
+||i.epvpimg.com/NSNod.png
+||i.epvpimg.com/TPm0h.png
+||i.epvpimg.com/8WEie.png
+||i.epvpimg.com/4mcFh.png
+||i.epvpimg.com/xkwEf.png
+||i.epvpimg.com/1Ndif.gif
+||images.weserv.nl/?url=abload.de%2Fimg%2Fsignaturl6ezh.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160122%2F3copla8i.png
+||i.epvpimg.com/nxEeb.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160102%2Fl9rwjgpt.png
+||images.weserv.nl/?url=s11.postimg.org%2Fes6xzexjn%2Fant.gif
+||images.weserv.nl/?url=i.gyazo.com%2F68223c6550d07ee8b9782110a9fd111d.png
+||images.weserv.nl/?url=www.primegamer.de%2FPG_Signatur_700x200px_RGB.png
+||i.epvpimg.com/07Ynb.png
+||i.epvpimg.com/X2fEf.png
+||i.epvpimg.com/jzA8g.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160127%2F8jmxz2bm.jpg
+||i.epvpimg.com/Xxxqh.jpg
+||i.imgur.com/44zLv4m.gif
+||puu.sh/mebdu/006099595e.png
+||i.epvpimg.com/1n7kf.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160128%2F9d4ewh9j.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160128%2Fhrj35lxh.gif
+||i.epvpimg.com/qWPjb.png
+||images.weserv.nl/?url=lordgold.eu%2Fimg%2FLordGoldSignature.png
+||i.epvpimg.com/eI9lb.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160130%2Fwqs2qx7x.gif
+||i.epvpimg.com/CSi7d.png
+||i.imgur.com/Cq0xXdL.gif
+||i.imgur.com/jF17Ohu.png
+||puu.sh/ll5Pc/2119bb6591.gif
+||i.epvpimg.com/lKWbh.png
+||i.epvpimg.com/OlaHh.png
+||i.epvpimg.com/U7dcd.png
+||images.weserv.nl/?url=i.poccix.de%2Fpoccix%2Fsignaturreborn.png
+||i.epvpimg.com/XTK8b.png
+||i.imgur.com/N6b6ZxU.gif
+||images.weserv.nl/?url=supermike.goofie.se%2Flogo.png
+||signy.de
+||luna-hosting.io
+||i.epvpimg.com/g2Bgd.png
+||i.epvpimg.com/1kLjb.png
+||i.imgur.com/Sko7J8a.png
+||i.imgur.com/DdY75gi.jpg
+||fs5.directupload.net/images/160130/9tpntdrl.gif
+||embed.gyazo.com/732baed7406fbf2d4a83634b4a87ccfe.png
+||i.epvpimg.com/XvK6d.png
+||images.weserv.nl/?url=hd3-masters2.de%2Fbanner.png
+||i.epvpimg.com/oawhd.png
+||i.epvpimg.com/e6h9d.gif
+||i.epvpimg.com/j8uKe.png
+||i.epvpimg.com/Ce76g.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160130%2F9tpntdrl.gif
+||images.weserv.nl/?url=zmniejszacz.pl%2Fzdjecie%2F362%2F4117477_gifting1.png
+||i.imgur.com/p9vE68C.gif
+||i.epvpimg.com/zwRRg.gif
+||i.epvpimg.com/DdE1d.jpg
+||i.imgur.com/jjnSTwn.png
+||images.weserv.nl/?url=s21.postimg.org%2Fh79dxepfr%2FBannerv4.png
+||i.imgur.com/MctFGC3.png
+||i.imgur.com/GkzD5l3.png
+||i.imgur.com/G7x4in0.png
+||i.imgur.com/5gidCbP.jpg
+||i.imgur.com/3AnPoIC.gif
+||www.elitepvpers.com/forum/customavatars/avatar5880290_6.gif
+||i.epvpimg.com/Qcj1h.png
+||i.epvpimg.com/sJede.png
+||images.weserv.nl/?url=s7.directupload.net%2Fimages%2F140919%2Fzdw5rbk3.gif
+||images.weserv.nl/?url=abload.de%2Fimg%2Funbenannt-2x3kwf.png
+||i.epvpimg.com/Gsk5h.gif
+||i.epvpimg.com/4jDYb.png
+||epvpimg.com/P3Edh.png
+||i.epvpimg.com/PUsXf.png
+||i.epvpimg.com/ChMyf.gif
+||i.epvpimg.com/JAT7d.gif
+||i.epvpimg.com/BLJjc.jpg
+||i.epvpimg.com/DpJQe.png
+||imgur.com/Qf6fFKs.gif
+||i.epvpimg.com/8BLbb.png
+||images.weserv.nl/?url=img.tandrah.de%2Fscreen04ThuPM0216.png
+||images.weserv.nl/?url=up.picr.de%2F24532876ne.png
+||i.epvpimg.com/hKwhd.gif
+||i.epvpimg.com/6tqjg.png
+||yt3.ggpht.com/-Eibou3_d2Co/VctOL3ArAsI/AAAAAAAAAUU/loWdxXbzacU/w1060-fcrop64=1,00005a57ffffa5a8-nd/Neues%2BKanalbild%2B2.jpg
+||images.weserv.nl/?url=probots.it%2Fsignature%2F1.gif
+||i.epvpimg.com/2AQLf.jpg
+||i.epvpimg.com/1Eiof.png
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Foutputcoeg9u2m90kcdorp.gif
+||images.weserv.nl/?url=static.tumblr.com%2Fbj3k5lc%2FU2zlrsp5h%2Fblogheader.png
+||images.weserv.nl/?url=i41.tinypic.com%2F2dmd1ls.png
+||i.epvpimg.com/Tzjib.gif
+||i.epvpimg.com/tBHPb.jpg
+||i.imgur.com/rloTha7.png?1
+||www.elitepvpers.com/forum/customavatars/avatar6739134_1.gif
+||images.weserv.nl/?url=s7.directupload.net%2Fimages%2F140509%2Fss6s66k9.jpg
+||i.imgur.com/pf23OTf.gif
+||i.imgur.com/2Cs7fza.gif
+||i.imgur.com/AmspeYw.gif
+||i.epvpimg.com/28M8f.png
+||i.epvpimg.com/1Ydsb.png
+||images.weserv.nl/?url=s1.postimg.org%2F12sd73ws7j%2Fbanner_by_gianluck_5.jpg
+||images.weserv.nl/?url=s15.postimg.org%2Ff584qu3nv%2Fbanner_by_gianluck.jpg
+||i.imgur.com/chEuTKH.gif
+||i.imgur.com/p8ttApf.gif
+||media.giphy.com/media/l3YShL7L91FMouaiI/giphy.gif
+||images.weserv.nl/?url=oi62.tinypic.com%2F142xaaa.jpg
+||i.epvpimg.com/Wzopd.png
+||i.epvpimg.com/AXEGh.png
+||i.epvpimg.com/BjhCg.gif
+||i.epvpimg.com/E4N1c.gif
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160214%2Fsbjp3na8.jpg
+||imageshack.com/i/pl1GwEVXp
+||images.weserv.nl/?url=www.bilder-hochladen.net%2Ffiles%2Fjp2n-1q-7f39.png
+||i.imgur.com/4wCmU1q.png
+||i.epvpimg.com/ylOeg.png
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150218%2Fugkwue65.png
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150111%2Fip4c7hdg.png
+||i.imgur.com/yDrz5lM.gif
+||www.elitepvpers.com/forum/customavatars/avatar6565958_3.gif
+||i.epvpimg.com/5mVEc.png
+||i.epvpimg.com/EHx4e.png
+||i.epvpimg.com/XNmib.png
+||i.epvpimg.com/evLsg.png
+||i.epvpimg.com/XFAah.png
+||i.epvpimg.com/hfP0e.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F151228%2F4lfnwypp.png
+||images.weserv.nl/?url=img.zxcdn.com%2FwebCDN%2Fimg%2FCC%2FEN%2FasSeenOn%2Fbadge.png
+||i.imgur.com/OKDdEvr.jpg
+||i.imgur.com/mEZ7hiB.jpg
+||www.elitepvpers.com/forum/customavatars/avatar6210787_7.gif
+||images.weserv.nl/?url=luna-hosting.io%2Ffile%2Flunabanner.gif
+||i.epvpimg.com/MRi0h.png
+||images.weserv.nl/?url=durek.xyz%2Fi%2Fsignatur.jpg
+||images.weserv.nl/?url=i58.tinypic.com%2Fznq2v4.jpg
+||www.fotos-hochladen.net/uploads/dasndfjgsxyt2.gif
+||img5.fotos-hochladen.net/uploads/ne17f9m0n83co.png
+||www.fotos-hochladen.net/uploads/ne2f3gjevnpx1.png
+||img5.fotos-hochladen.net/uploads/ne3thinp4bfmu.png
+||i.epvpimg.com/seYme.jpg
+||i.epvpimg.com/eOVag.gif
+||i.imgur.com/8UzZVPw.png
+||i.imgur.com/MFYCzwx.gif
+||i.imgur.com/KsckRJN.gif
+||i.epvpimg.com/wEnhg.jpg
+||i.epvpimg.com/FdO2c.gif
+||i.epvpimg.com/tXHBb.gif
+||i.epvpimg.com/Ud9ic.gif
+||i.imgur.com/55bbDQT.png
+||i.imgur.com/kzqhsol.png
+||i.imgur.com/YIFwJlC.png
+||i.imgur.com/gjzMf37.png
+||i.imgur.com/8Fm7Vku.png
+||i.imgur.com/zhxjUxZ.png
+||i.epvpimg.com/hxz1e.gif
+||i.epvpimg.com/NDKbc.png
+||i.epvpimg.com/16DXe.png
+||i.epvpimg.com/D8GTe.gif
+||images.weserv.nl/?url=bilder.quavo.de%2Fsignatur.gif
+||i.epvpimg.com/IRGag.png
+||i.epvpimg.com/OzAEd.png
+||i.epvpimg.com/NJDKb.png
+||i.epvpimg.com/JjySg.png
+||i.epvpimg.com/xOZzb.png
+||i.imgur.com/CoIPgBw.png
+||i.imgur.com/WPc89aJ.gif
+||i.epvpimg.com/wpNUd.gif
+||images.weserv.nl/?url=rubinity.de%2Frubinity%2Fres%2Fimages%2FEPVPBANNER.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160304%2Fxj6mhihq.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160302%2Fule8ghyx.jpg
+||i.epvpimg.com/Eg2ke.png
+||http://gamestatistics.square7.ch/
+||images.weserv.nl/?url=gamestatistics.square7.ch
+||i.epvpimg.com/P6kmc.png
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160305%2Feqdi7c4t.jpg
+||i.epvpimg.com/HJUqc.png
+||images.weserv.nl/?url=keyto-shop.com%2Fimages%2Fna.png
+||i.imgur.com/GJMSWN7.gif
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150506%2F638lyufe.jpg
+||i.imgur.com/hEYBKl2.jpg
+||images.weserv.nl/?url=s28.postimg.org%2F6ingdi3fx%2FValves_sig.png
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fepvpbannerhq04u6jclg.png
+||images.weserv.nl/?url=i66.tinypic.com%2F2rfzsqh.gif
+||puu.sh/nF8m8/8e97a4c876.png
+||i.epvpimg.com/ymgmf.gif
+||images.weserv.nl/?url=consilio-game.de%2Fimg%2Fepvp-sig.PNG
+||puu.sh/lxCQj/20ca954a59.png
+||i.imgur.com/iBUAf4F.png
+||i.imgur.com/UkGit85.png
+||i.imgur.com/j3RNpJK.png
+||i.imgur.com/bR8bsBI.png
+||i.imgur.com/h4FHh3L.png
+||i.imgur.com/cYPh8lq.png
+||i.imgur.com/WnhFkR3.png
+||i.imgur.com/zbXAOIH.gif
+||www.elitepvpers.com/forum/customavatars/avatar3950046_8.gif
+||i.epvpimg.com/AriCb.png
+||i.imgur.com/wpJmhMZ.png
+||www.serraniel.com/api/api.php
+||i.imgur.com/FHEfKsJ.png
+||puu.sh/koG0C/68e96bb2a8.jpg
+||i.imgur.com/mfjDkhD.png
+||i.epvpimg.com/ArQQd.gif
+||i.imgur.com/ACAulCF.gif
+||i.imgur.com/LpuSK2O.jpg
+||i.imgur.com/9mmjl3M.png
+||i.epvpimg.com/uyZWg.gif
+||i.epvpimg.com/3XBYd.gif
+||www.elitepvpers.com/forum/customavatars/avatar6449665_56.gif
+||rubinity.de/rubinity/res/images/EPVPBANNER.png
+||i.epvpimg.com/jw07d.jpg
+||i.epvpimg.com/oj8qg.png
+||www.serraniel.com/api/api.php?cmd=getbanner&mode=special&id=490
+||i.epvpimg.com/5oLPd.png
+||i.epvpimg.com/QQMqh.png
+||i.epvpimg.com/Y2lEc.png
+||i.epvpimg.com/u7TYc.png
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150718%2Fzyyow3r4.jpg
+||i.imgur.com/BokOABF.png
+||i.epvpimg.com/vawye.jpg
+||i.epvpimg.com/KQxad.jpg
+||i.epvpimg.com/sCgKd.jpg
+||i.epvpimg.com/qx3Re.png
+||i.epvpimg.com/KL8Jc.png
+||bubbelhost.com/ah.jpg
+||i.epvpimg.com/LNp8b.png
+||i.epvpimg.com/E3w6e.png
+||i.imgur.com/JsW28Cs.png
+||i.epvpimg.com/xqGpc.png
+||i.epvpimg.com/ARmFg.png
+||i.epvpimg.com/w3BPf.png
+||i.epvpimg.com/fLRdf.png
+||i.imgur.com/4IxItX6.png
+||i.imgur.com/1gwsm89.png
+||i.epvpimg.com/TJk4d.png
+||i.epvpimg.com/bShJh.png
+||i.epvpimg.com/wIXKg.png
+||i.epvpimg.com/bI7af.gif
+||images.weserv.nl/?url=puush.xyz%2Fd%2Fe80b4459.png
+||images.weserv.nl/?url=puush.xyz%2Fd%2Ffe8e01fc.png
+||i.epvpimg.com/yngch.gif
+||i.epvpimg.com/CFhXf.jpg
+||i.epvpimg.com/vN6Xb.gif
+||i.epvpimg.com/5dKTf.png
+||i.epvpimg.com/AasPc.png
+||i.epvpimg.com/4RHed.png
+||i.epvpimg.com/qsh2g.png
+||i.epvpimg.com/ajhxd.png
+||i.epvpimg.com/6HlAf.png
+||images.weserv.nl/?url=nextlevel-gaming.net%2Fimg%2FBannerSignatur.png
+||images.weserv.nl/?url=s11.postimg.org%2Fyqumj4ylf%2FSIg.jpg
+||i.epvpimg.com/gTtUb.png
+||i.epvpimg.com/1UgPc.png
+||i.imgur.com/01OImV6.png
+||i.imgur.com/AntMheh.png
+||i.epvpimg.com/DUmif.png
+||i.epvpimg.com/xkXcd.png
+||i.epvpimg.com/GScYd.png
+||i.epvpimg.com/cGRYc.jpg
+||i.epvpimg.com/7ovoh.gif
+||i.epvpimg.com/nHone.jpg
+||images.weserv.nl/?url=s29.postimg.org%2F7kxo1rgmf%2Fsignature.png
+||i.imgur.com/IrSRWNa.png
+||images.weserv.nl/?url=i.giphy.com%2F3rgXBQyMRGxz6qOfC0.gif
+||images.weserv.nl/?url=www.danasoft.com
+||i.imgur.com/HIw2BoL.png%3C/a%3E
+||i.imgur.com/1u4kE6K.png
+||i.imgur.com/qomddyf.png
+||i.imgur.com/CJevqt9.png
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fmeinesighgzisxf43n.png
+||i.epvpimg.com/L38Jh.png
+||nextlevel-gaming.net/img/BannerSignatur.png
+||i.epvpimg.com/f0u7e.png
+||i.imgur.com/lU46GNV.png
+||i.imgur.com/4t37L3Z.jpg
+||i.epvpimg.com/yTGqe.jpg
+||i.epvpimg.com/utQJh.png
+www.elitepvpers.com###td_post_34223697 > div:nth-of-type(2)
+||images.weserv.nl/?url=abload.de%2Fimg%2Fsignaturb4sb5.gif
+||i.epvpimg.com/vrFAh.png
+||i.imgur.com/Ak3zU9u.gif
+||i.imgur.com/CknQFcY.gif
+||i.imgur.com/F00TJTH.gif
+||i.imgur.com/QJPtoxM.gif
+||i.imgur.com/7xKKbs8.gif
+||www.elitepvpers.com/forum/customavatars/avatar6004929_3.gif
+||i.epvpimg.com/GSulc.gif
+||i.epvpimg.com/eyYbc.gif
+||i.epvpimg.com/mg8qd.png
+||i.epvpimg.com/3uv9h.png
+||i.epvpimg.com/Y4K9b.png
+||www.serraniel.com/api/api.php?cmd=getbanner&mode=special&id=65
+||i.epvpimg.com/Ab67f.jpg
+||i.epvpimg.com/aslaf.jpg
+||images.weserv.nl/?url=www2.pic-upload.de%2Fimg%2F30126637%2Fa1.gif
+||i.epvpimg.com/BHrXf.gif
+||i.epvpimg.com/sLcUe.gif
+||i.epvpimg.com/7fp2e.gif
+||puu.sh/nZl48/7d7e467cae.png
+||i.epvpimg.com/ixq2e.gif
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160316%2Fyssfqw4w.jpg
+||i.epvpimg.com/JbApe.gif
+||images.weserv.nl/?url=www2.pic-upload.de%2Fimg%2F29080059%2Fsignatur.jpg
+||i.epvpimg.com/I3LXg.jpg
+||i.epvpimg.com/OLLCb.gif
+||i.imgur.com/lzqCwjr.gif
+||i.imgur.com/nugDvj5.gif
+||images.weserv.nl/?url=i.gyazo.com%2F143649bc33a2ce680d59e3a0f0dc1157.png
+||i.epvpimg.com/EP3Hf.gif
+||i.epvpimg.com/nRx4c.gif
+||images.weserv.nl/?url=abload.de%2Fimg%2Fjobbrsegifghos8.gif
+||images.weserv.nl/?url=i57.tinypic.com%2F34pncdg.gif
+||i.epvpimg.com/Ibr5f.png
+||i.epvpimg.com/bvy1c.png
+||i.epvpimg.com/jOXnh.png
+||i.epvpimg.com/ZSSJh.png
+||i.epvpimg.com/hyfng.png
+||i.imgur.com/VJDRQ2X.png
+||i.epvpimg.com/bZCHb.gif
+||i.imgur.com/NnPABTs.png
+||i.imgur.com/DW9EQ.jpg
+||images.weserv.nl/?url=s27.postimg.org%2Fnijo4h8cz%2FSignture.gif
+||i.epvpimg.com/jLpFf.png
+||i.epvpimg.com/NvUhc.png
+||i.epvpimg.com/opiUf.png
+||i.epvpimg.com/bRYgd.png
+||i.imgur.com/dVnRQzz.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160320%2Fbmtay9l8.gif
+||images.weserv.nl/?url=www.abload.de%2Fimg%2Fjura5bk8c.gif
+||i.epvpimg.com/a89yb.jpg
+||i.epvpimg.com/E8srh.png
+||i.imgur.com/jenijnE.png
+||images.weserv.nl/?url=s28.postimg.org%2Fy033d77fv%2Fv0_HAPO.gif
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fbannerlik93ucm10.png
+||images.weserv.nl/?url=www2.pic-upload.de%2Fimg%2F30308596%2Fhikari1.gif
+||images.weserv.nl/?url=www2.pic-upload.de%2Fimg%2F30308614%2Frog2.gif
+||images.weserv.nl/?url=i25.photobucket.com%2Falbums%2Fc89%2Fbigzuc0%2Fseph_zpsf039c37b.png
+||i.epvpimg.com/wttob.png
+||hostisan.com/signatur.jpg
+||images.weserv.nl/?url=i435.photobucket.com%2Falbums%2Fqq77%2Fglassboxdesign%2FTrist-A.gif
+||images.weserv.nl/?url=i435.photobucket.com%2Falbums%2Fqq77%2Fglassboxdesign%2FTrist-H.gif
+||images.weserv.nl/?url=i435.photobucket.com%2Falbums%2Fqq77%2Fglassboxdesign%2FTrist-G.gif
+||images.weserv.nl/?url=i435.photobucket.com%2Falbums%2Fqq77%2Fglassboxdesign%2FTrist-I.gif
+||images.weserv.nl/?url=i435.photobucket.com%2Falbums%2Fqq77%2Fglassboxdesign%2FTrist-C.gif
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Flolbannerp3yq5ztdr2.png
+||i.imgur.com/yfCGXPw.gif
+||imgur.com/WovCxhf.png
+||images.weserv.nl/?url=kreios2.org%2Fimg%2FTeamler%2FBonus.gif
+||i.epvpimg.com/KVAjh.gif
+||i.epvpimg.com/qzL3h.gif
+||i.imgur.com/1ppOHFr.png
+||i.imgur.com/woWwX7J.png
+||i.epvpimg.com/gaEFe.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160407%2Fbvvz9ojh.jpg
+||i.epvpimg.com/6oWdh.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160225%2Fn78vng8w.jpg
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160309%2Fos5qpnrg.png
+||i.epvpimg.com/XgLqc.jpg
+||i.imgur.com/7LpOdJn.png
+||images.weserv.nl/?url=nsa38.casimages.com%2Fimg%2F2016%2F04%2F10%2F160410055102810121.jpg
+||i.epvpimg.com/TEkBe.png
+||i.imgur.com/f6gY725.gif
+||imgur.com/aBVPA51.gif
+||i.imgur.com/PXyAW20.gif
+||i.epvpimg.com/KrjVf.gif
+||i.epvpimg.com/sr0dh.png
+||i.imgur.com/QMqD808.png
+||i.epvpimg.com/aaBde.png
+||i.epvpimg.com/hPKTc.png
+||i.epvpimg.com/4FV2e.png
+||i.epvpimg.com/foRpd.jpg
+||i.epvpimg.com/k2n6g.png
+||i.imgur.com/IhuN42D.png
+||i.imgur.com/17aSXV3.png
+||i.imgur.com/uI6Gq5p.png
+||i.epvpimg.com/S4yJf.png
+||i.imgur.com/sCeIlnA.png
+||i.epvpimg.com/zrTkg.png
+||i.imgur.com/DSYzfkm.png
+||i.epvpimg.com/CwSyg.gif
+||i.imgur.com/QhQNHUs.jpg
+||i.gyazo.com/31b912e48406ed3755a1d7105b22c1c3.png
+||i.epvpimg.com/sW0Lg.jpg
+||i.epvpimg.com/sd0Kf.png
+||i.epvpimg.com/SHJ4e.png
+||images.weserv.nl/?url=s1.directupload.net%2Fimages%2F130703%2F9e73zufk.png
+||i.epvpimg.com/qyLsf.png
+||i.epvpimg.com/pdsOd.png
+||images.weserv.nl/?url=abload.de%2Fimg%2Fbannerszkw3.gif
+||i.epvpimg.com/k9ruh.gif
+||i.epvpimg.com/VWrXg.png
+||i.imgur.com/lxKCEC0.png
+||i.imgur.com/lnhRDNF.png
+||i.imgur.com/wowzHxM.png
+||i.imgur.com/le6DXZJ.png
+||i.imgur.com/Ntg8ZwR.png
+||i.imgur.com/3t44nui.gif
+||images.weserv.nl/?url=oi62.tinypic.com%2F4v5mvp.jpg
+||images.weserv.nl/?url=i59.tinypic.com%2Fvpw5lv.jpg
+||i.epvpimg.com/bIH2g.jpg
+||i.imgur.com/zk6ziIC.png
+||i.epvpimg.com/mGMJc.png
+||i.imgur.com/9YcJI13.gif
+||images.weserv.nl/?url=getyoursmurf.com%2Fweb%2Fimages%2Fsignature.png
+||i.epvpimg.com/ig1Gb.png
+||i.epvpimg.com/UrnUe.png
+||images.weserv.nl/?url=xelayz.com%2Fpics%2F1.gif
+||media.giphy.com/media/l0K4oaQKuA1qY84ec/giphy.gif
+||i.epvpimg.com/1EkPe.gif$image
+||i.epvpimg.com/g0VDg.gif$image
+||images.weserv.nl/?url=i.cubeupload.com%2FMfcCvy.gif$image
+||i.epvpimg.com/Y9lgh.gif$image
+||i.epvpimg.com/ZyMjf.png$image
+||i.epvpimg.com/5llIc.png$image
+||i.epvpimg.com/pS8bg.png$image
+||i.imgur.com/lkoGQNT.gif$image
+||i.imgur.com/wQ6k8He.gif$image
+||i.epvpimg.com/Wqi6d.jpg$image
+||media.giphy.com/media/l0K4gn5zaLhhG17I4/giphy.gif$image
+||i.epvpimg.com/7Uvfb.png$image
+||i.epvpimg.com/a6Jff.png$image
+||i.imgur.com/Rpop2TB.jpg$image
+||i.epvpimg.com/8tGAe.gif$image
+||images.weserv.nl/?url=www.austriatop.de%2Fwerbung%2Fad.png$image
+||images.weserv.nl/?url=mydailylikes.com%2Fpromo%2Fbanner.gif$image
+||qbinstantcsgo.files.wordpress.com/2016/05/website-header3.jpg?w=790$image
+||i.epvpimg.com/Ciipf.png$image
+||i.epvpimg.com/NEGQe.gif$image
+||i.epvpimg.com/nzACb.jpg$image
+||images.weserv.nl/?url=www2.pic-upload.de%2Fimg%2F30725133%2FUnbenannt.png$image
+||media.giphy.com/media/3o8doOsafSoHzFkwda/giphy.gif$image
+||i.epvpimg.com/54uhb.jpg$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160524%2Fl3cwb2om.png$image
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fbannerram39pbn7i1ha.gif$image
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fimageifu9sdn7w0.png$image
+||i.epvpimg.com/SvBnf.gif$image
+||i.imgur.com/dUosFqH.jpg$image
+||i.imgur.com/WhHhKvY.png$image
+||puu.sh/nTYVQ/3bc5a309dc.jpg$image
+||i.epvpimg.com/bHZze.png$image
+||i.epvpimg.com/Cyfoe.jpg$image
+||i.epvpimg.com/cGiZd.png$image
+||images.weserv.nl/?url=chaospic.com%2Fbild.php$image
+||puu.sh/p9YPC/b0e1139e43.png$image
+||images.weserv.nl/?url=fs2.directupload.net%2Fimages%2F150216%2Fke5q2trm.png$image
+||i.epvpimg.com/M6o5e.png$image
+||media.giphy.com/media/3oEjHMk6UA0lcMAL2E/giphy.gif$image
+||i.epvpimg.com/4C5og.jpg$image
+||i.epvpimg.com/flJmg.jpg$image
+||i.epvpimg.com/WPbqb.jpg$image
+||cdn.punisher.biz/img/punisher-signatur.png$image
+||cdn.punisher.biz/img/twitch-signatur.png$image
+||i.gyazo.com/e1c661dfe6541fd4e991968cf4408774.png$image
+||www.xelayz.com/pics/Banner/banner.gif$image
+||i.imgur.com/8N0z8J1.png$image
+||i.epvpimg.com/Kbnmf.png$image
+||i.epvpimg.com/Rwfwh.gif$image
+||i.epvpimg.com/CtQ9h.png$image
+||i.epvpimg.com/NhZyg.jpg$image
+||picload.org/image/rgicdpca/sig1611.png$image
+||i.imgur.com/UKGhsf5.png$image
+||imgur.com/vjWzAi6.png$image
+||i.epvpimg.com/X7hsh.png$image
+||i.epvpimg.com/oe9me.png$image
+||images.weserv.nl/?url=www.fotos-hochladen.net%2Fuploads%2Fsignaturgw467ms8p3.jpg$image
+||images.weserv.nl/?url=www.fotos-hochladen.net%2Fuploads%2Ftqjhcun31k0mp6o.png$image
+||i.epvpimg.com/ebCFf.gif$image
+||i.epvpimg.com/b3Hlh.png$image
+||images.weserv.nl/?url=i1279.photobucket.com%2Falbums%2Fy523%2Ftextcraft%2FJun%25202016%2520-%25202%2F5d232de8b48b35db57cd87c1946869bbb4f0b99eab47d32fa0019abbad5c96e4d0c0d0fa1f292da385f7be3009710ae2a9313bf0801e33de610621d4db50_zpsygdi1duj.png$image
+||i.epvpimg.com/1FVdd.jpg$image
+||i.epvpimg.com/ZaCif.png$image
+||i.epvpimg.com/zjfUe.jpg$image
+||i.epvpimg.com/nK1ph.jpg$image
+||i.epvpimg.com/BbxKd.png$image
+||i.epvpimg.com/6teMc.png$image
+||i.epvpimg.com/nCunh.gif$image
+||i.epvpimg.com/1sJgg.jpg$image
+||i.epvpimg.com/ESKOb.png$image
+||images.weserv.nl/?url=www.duckroad.net%2Fsig.php%3Fchar%3D%5BAdmin%5DThunder$image
+||i.epvpimg.com/xpdsh.png$image
+||puu.sh/phF39/81f4a6cd7d.gif$image
+||i.epvpimg.com/clSpc.gif$image
+||i.epvpimg.com/7IV4b.gif$image
+||i.epvpimg.com/o7hjh.png$image
+||i.epvpimg.com/FeqEf.png$image
+||i.epvpimg.com/iYDDh.png$image
+||i.epvpimg.com/kZA6c.png$image
+||i.epvpimg.com/T8hjd.png$image
+||i.epvpimg.com/sM4ic.jpg$image
+||i.epvpimg.com/6zG4d.png$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160701%2Fptocbbm4.png$image
+||images.weserv.nl/?url=de.clubcooee.com%2Fimg%2Fbanner%2Fclubcooee_468_4.jpg$image
+||i.imgur.com/WBl5mYX.png$image
+||i.epvpimg.com/0bnde.gif$image
+||fs5.directupload.net/images/160214/sbjp3na8.jpg$image
+||epvpimg.com/z9Vhf.png$image
+||i.epvpimg.com/WpWXf.jpg$image
+||i.epvpimg.com/AqeYe.gif$image
+||i.epvpimg.com/8MzBh.png$image
+||i.epvpimg.com/nIEmf.png$image
+||i.epvpimg.com/ZEEdc.gif$image
+||i.epvpimg.com/w0rne.png$image
+||i.imgur.com/hJosdgs.gif$image
+||puu.sh/iXKGx/1c9f955d4d.png$image
+||i.epvpimg.com/AG6pg.png$image
+||i.epvpimg.com/dvGcg.png$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160710%2Fvt3xi8er.jpg$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160710%2Fg3t78w3r.jpg$image
+||i.imgur.com/mnGhYUg.gif%3Cahref=//www.elitepvpers.com/forum/league-legends-trading/3854564-league-legends-boosting-service-cheap.htmltarget=_blank%3Ehttp://www.elitepvpers.com/forum/lea...ice-cheap.html%3C/a%3E$image
+||i.imgur.com/1dQqES0.gif$image
+||i.epvpimg.com/5xyEh.png$image
+||i.epvpimg.com/L0yWc.jpg$image
+||i.epvpimg.com/t7v9h.jpg$image
+||i.epvpimg.com/EJoKh.png$image
+||images.weserv.nl/?url=embed.gyazo.com%2F732baed7406fbf2d4a83634b4a87ccfe.png$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160605%2Fbdim3snt.gif$image
+||i.epvpimg.com/3e8qe.png$image
+||images.weserv.nl/?url=abload.de%2Fimg%2Fwerbungbtuar.png$image
+||i.gyazo.com/c04ac7f372885fd0f3dfa0273391329b.gif$image
+||i.epvpimg.com/NgNJg.gif$image
+||i.imgur.com/XnCWOhJ.gif$image
+||i.epvpimg.com/a6XRf.png$image
+||i.gyazo.com/9bdae7b570eefcc4d801eabe8e158b23.png$image
+||www.elitepvpers.com/forum/customavatars/avatar5859653_1.gif$image
+||i.epvpimg.com/vb7Qc.jpg$image
+||i.epvpimg.com/eNDog.jpg$image
+||images.weserv.nl/?url=up.picr.de%2F26305155oy.jpg$image
+||i.epvpimg.com/VSo2h.gif$image
+||i.epvpimg.com/YstZb.png$image
+||i.imgur.com/XqxdWHy.png$image
+||puu.sh/nnUgq/f6e08eb8ea.PNG$image
+||i.epvpimg.com/vrUSc.jpg$image
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150411%2Fsg7uio65.jpg$image
+||i.epvpimg.com/SuwWf.png$image
+||i.epvpimg.com/47o4e.png$image
+||i.epvpimg.com/v7Y2g.png$image
+||images.weserv.nl/?url=www2.pic-upload.de%2Fimg%2F30829580%2Ftwixepvp.png$image
+||karuma2.com/banner.gif$image
+||images.weserv.nl/?url=img4host.net%2Fupload%2F%2F2611494956f6694dc2cc5.png$image
+||i.epvpimg.com/jMg7h.png$image
+||i.epvpimg.com/XroSg.gif$image
+||i.imgur.com/UPA5DwG.gif$image
+||i.epvpimg.com/0mjVg.png$image
+||images.weserv.nl/?url=i.flying-men.de%2Fm2si-werbung-2.png$image
+||bladetec.de/assets/img/bladetec_logo.png$image
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150529%2Fdclyo22w.png$image
+||i.epvpimg.com/6LMkb.png$image
+||img.infinity-hosting.com/if_banner.png$image
+||i.epvpimg.com/rHuJf.png$image
+||images.weserv.nl/?url=img.infinity-hosting.com%2Fif_banner.png$image
+||i.epvpimg.com/LRgid.png$image
+||i.epvpimg.com/IhUCb.png$image
+||i.epvpimg.com/9Q5xh.jpg$image
+||i.imgur.com/YMAYVOz.png$image
+||i.imgur.com/i7OwPir.png$image
+||i.epvpimg.com/HcRZc.jpg$image
+||i.epvpimg.com/Qpamg.png$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F160226%2Fcrkgs46a.png$image
+||images.weserv.nl/?url=img.infinity-hosting.com%2Fif_banner2.png$image
+||images.weserv.nl/?url=pidgeybot.com%2Fimg%2Fsig.png$image
+||images.weserv.nl/?url=fs1.directupload.net%2Fimages%2F150524%2Fgkbr55g3.jpg$image
+||i.epvpimg.com/PphEe.jpg$image
+||i.imgur.com/bbnzFnd.png$image
+||i.epvpimg.com/Ey4Ag.jpg$image
+||i.imgur.com/46TV4XB.jpg$image
+||i.imgur.com/Ac2fes2.jpg$image
+||i.imgur.com/YHKrJGV.jpg$image
+||i.imgur.com/pcI86yJ.gif$image
+||i.imgur.com/bmdUUbs.png$image
+||i.epvpimg.com/6Bxae.png$image
+||i.epvpimg.com/qLeVe.png$image
+||i.epvpimg.com/c88ae.png$image
+||i.epvpimg.com/ZLNpc.gif$image
+||i.epvpimg.com/Ln1ye.gif$image
+||epvpimg.com/B3cUg.gif$image
+||www.elitepvpers.com/forum/members/6493255-einsamerheld-albums17795-signatur-picture66568-division-signatur.jpg$image
+||i.imgur.com/CkHkZnk.png$image
+||i.epvpimg.com/WDOId.png$image
+||i.epvpimg.com/G1iEd.png$image
+||i.imgur.com/dHOO0aK.png$image
+||i.imgur.com/Y5OE2Is.png$image
+||images.weserv.nl/?url=www.univexnet.eu%2Fsig.jpg$image
+||media.giphy.com/media/jVNZO6eaiQgkE/giphy.gif$image
+||i.epvpimg.com/8hhGd.gif$image
+||i.imgur.com/dX8cTcr.png$image
+||i.epvpimg.com/apxLh.gif$image
+||i.epvpimg.com/ioqEd.png$image
+||www.elitepvpers.com/forum/members/6493255-einsamerheld-albums17795-signatur-picture66568-division-signatur.jpg$image
+||i.epvpimg.com/SepTc.png$image
+||i.epvpimg.com/BNfNc.png$image
+||i.imgur.com/kvVu06V.gif$image
+||i.imgur.com/s8f0oXy.png$image
+||i.imgur.com/ED31wqm.png$image
+||epvpimg.com/HRoae.png$image
+||epvpimg.com/jxQ7c.png$image
+||epvpimg.com/dXl2h.png$image
+||i.epvpimg.com/71cie.png$image
+||i.epvpimg.com/TCFTb.jpg$image
+||images.weserv.nl/?url=imagespeicher.de%2Fcss%2Fimg%2Flogo.png$image
+||www.elitepvpers.com/forum/images/gradients/firstalt.gif$image
+||puu.sh/kVTPf/420b8a3bc6.png$image
+||i.epvpimg.com/R5oUb.png$image
+||i.epvpimg.com/KmEle.jpg$image
+||i.epvpimg.com/2FRde.gif$image
+||i.epvpimg.com/A9lJd.gif$image
+||images.weserv.nl/?url=up416.siz.co.il%2Fup2%2Fdijktzg32nmy.png$image
+||i.imgur.com/Tf8ubnA.png$image
+||images.weserv.nl/?url=img5.fotos-hochladen.net%2Fuploads%2Fsignaturub72jqsvh0.png$image
+||i.epvpimg.com/egrxe.gif$image
+||s4.postimg.io/m3nyyvscd/giphyx.gif$image
+||i.imgur.com/HoDu5LY.gif$image
+||i.epvpimg.com/f5Ezg.png$image
+||images.weserv.nl/?url=ts4you.net%2Fwerbung%2F1.gif$image
+||i.epvpimg.com/cDgMd.gif$image
+||i.imgur.com/WqsaXeD.gif$image
+||i.imgur.com/42HwnPq.gif$image
+||i.epvpimg.com/DzTNe.png$image
+||i.imgur.com/UtEjfYT.png$image
+||i.epvpimg.com/44o5b.png$image
+||i.epvpimg.com/Sofcf.png$image
+||i.epvpimg.com/LuU8h.png$image
+||i.epvpimg.com/fSeyg.jpg$image
+||i.epvpimg.com/rGQ6h.jpg$image
+||puu.sh/dpj41/f5de98bdb8.png$image
+||i.epvpimg.com/aVX7d.gif$image
+||i.epvpimg.com/S0dCh.png$image
+||i.epvpimg.com/FuHWe.gif$image
+||i.imgur.com/2XYApIY.png$image
+||i.epvpimg.com/txEle.png$image
+||i.imgur.com/gyoOLr7.gif$image
+||i.epvpimg.com/jTcGd.png$image
+||i.epvpimg.com/iQ61h.gif$image
+||puu.sh/hcefR/815dce5fc6.png$image
+||i.imgur.com/IA4Fxz7.gif$image
+||i.epvpimg.com/HfFWb.gif$image
+||i.epvpimg.com/pr0ng.png$image
+||i.epvpimg.com/aok2c.png$image
+||images.weserv.nl/?url=fs5.directupload.net%2Fimages%2F161005%2Fuw4co4re.png$image
+||i.epvpimg.com/8Scmd.gif$image
+||mdhost.eu/templates/img/MDHostSig.gif$image
+||i.imgur.com/F8F061C.png$image
+||i.imgur.com/OU59j94.png$image
+||i.imgur.com/gUkeH84.gif$image
+||i.imgur.com/fe2tbh8.gif$image
+||i.imgur.com/f9rUIup.gif$image
+||i.imgur.com/0hWWzlF.gif$image
+||i.imgur.com/4VBiGV7.jpg$image
+||i.epvpimg.com/mPzug.png$image
+||i.imgur.com/BVr9moO.jpg$image
+||i.imgur.com/tN4cvdV.png$image
+||i.epvpimg.com/Lescb.gif$image
+||images.weserv.nl/?url=s19.postimg.org%2Fmo65hkcmr%2Fsigna.png$image
+||i.epvpimg.com/Yankc.gif$image
+||i.epvpimg.com/Dobqe.jpg$image
+||i.epvpimg.com/auZLf.png$image
+||i.epvpimg.com/wfkyd.gif$image
+||mdhost.eu/templates/img/MDHostSig_klein.gif$image
+||i.epvpimg.com/l2oSf.gif$image
+||i.imgur.com/DVPp8q1.gif$image
+||www.elitepvpers.com/forum/customavatars/avatar6955246_2.gif$image
+||i.epvpimg.com/qQ0Lh.png$image
+||i.epvpimg.com/YlIab.png$image
+||i.epvpimg.com/1uDDe.jpg$image
+||i.epvpimg.com/pBB6d.png$image
+||i.epvpimg.com/ZDQfd.png$image
+||i.gyazo.com/0b8b44a80ac7c81defbc11afd2450590.png$image
+||picload.org/image/rdodaorc/munchies3ersigiteil1.png$image
+||picload.org/image/rdodaorp/munchies3ersigiteil2.png$image
+||picload.org/image/rdodaodg/munchies3ersigiteil3.png$image
+||i.epvpimg.com/WO6Sg.png$image
+||puu.sh/s401a/f680983f99.gif$image
+||i.epvpimg.com/IImBf.png$image
+||images.weserv.nl/?url=www.photo-host.org%2Fimages%2F2016%2F07%2F13%2F9ElkUfV.gif$image
+||i.epvpimg.com/vlj2c.gif$image
+||i.epvpimg.com/M9i1f.gif$image
+||www.elitepvpers.com/forum/members/6758247-flash-gordon-albums17724-profil-usw-picture66815-oie-27215016xr2mz7xn.gif$image
+||www.elitepvpers.com/forum/members/6758247-flash-gordon-albums17724-profil-usw-picture66814-oie-rounded-cornecoolrs.gif$image
+||www.elitepvpers.com/forum/members/6758247-flash-gordon-albums17724-profil-usw-picture66949-oie-121630324bkr70oz.gif$image
+||i.epvpimg.com/RJSXb.png$image
+||i.imgur.com/VXKA0Ke.gif$image
+||i.imgur.com/okOk90r.png$image
 [Adblock Plus 2.0]
 @@||https://cdnjs.cloudflare.com/ajax/libs/video.js/*/video.min.js
 @@||https://cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
@@ -24906,11 +25658,9 @@ humr.cz##script:contains(adblock)
 ||i.imgur.com/KgICLjW.gif$image
 ||i.imgur.com/AKfNKrz.gif$image
 ||i.imgur.com/lEq00Kh.gif$image
-*jquery.snow.min.1.0.js
+*jquery.snow.min.*.js
 ||nutaku.net^$popup
 nutaku.net^$popup
-||mydirtyhobby.de^$popup
-mydirtyhobby.de^$popup
 ||darcek-slovakia2017.info^$popup
 darcek-slovakia2017.info^$popup
 ||ifortuna.sk^$popup
@@ -24944,19 +25694,10 @@ sledujserialy.sk##script:contains(BobkoNeblazni)
 ||recycle-static.zoznam.sk/*/*/*.jpg
 ||kariera.zoznam.sk/?page=banner
 ||hiqqu.xxx/static/n/p2.jpg$image
+||hiqqu.xxx/static/hh/*.gif$image
 www.hiqqu.xxx##body > div:nth-of-type(1)
 ||misslk.com/s.php*
 ||historyweb.dennikn.sk/uploads/banners/*.jpg
-||kissanime.*/ads/madads.aspx
-||kissanime.*/ads/madads3*.aspx$subdocument
-||kissmanga.*/ads/sideskins/*.jpg
-kissanime.*###leftside > .bigBarContainer:nth-of-type(2) > .episodeList.barContent > div:nth-of-type(2) > div:nth-of-type(4)
-kissanime.*##script:contains($('#divContentVideo').html("<div style='font-size:)
-kissanime.*##.barContent > div > .clear:nth-of-type(2)
-kissanime.*##.barContent > div > .clear2:nth-of-type(3)
-kissanime.*##.barContent > div > .clear2:nth-of-type(4)
-kissanime.*##.clear2:nth-of-type(6)
-kissanime.*##.barContent > div > div:nth-of-type(7)
 picfox.org###overlayBg
 imgpix.net##script:contains($)
 http://imgtrex.com/js/raptor.js
@@ -24977,6 +25718,8 @@ video.anyfiles.pl##div > .adblInfo
 ||img.hentai-foundry.com/themes/Hentai/images/2.gif$image
 ||img.hentai-foundry.com/themes/Hentai/images/new.gif$image
 ||img.hentai-foundry.com/themes/Hentai/images/TRA_2steps.gif$image
+||img.hentai-foundry.com/themes/Hentai/images/h-united/hu*.png$image
+||img.hentai-foundry.com/themes/Hentai/images/May-*a.gif
 www.hentai-foundry.com##.activebar
 hentaiplay.net###video_overlays
 ||tbib.org/*/300.php
@@ -24986,10 +25729,24 @@ hentaiplay.net###video_overlays
 ||a.konachan.net/300.php$subdocument
 ||a.konachan.net/700.php$subdocument
 ||i.imgur.com/N0nb0xx.png
-www.amk.to##.fancybox-overlay-fixed.fancybox-overlay > .fancybox-opened.fancybox-type-inline.fancybox-desktop.fancybox-wrap > .fancybox-skin
-www.amk.to##.fancybox-overlay-fixed.fancybox-overlay
 ||filmy-serialy-online.tv/images/banner160x600.swf
 filmy-serialy-online.tv##script:contains($("#timer-usage .to-lock").toLike)
+||easytarget.sk/data/banners/*.jpg*$image
+||easytarget.sk/images/logo_mini.png$image
+||film-serial-online.sk/images/astratex_banner*.jpg$image
+film-serial-online.sk###botrek
+film-serial-online.sk###easytarget1 > span > div
+film-serial-online.sk###easytarget2 > span > div
+film-serial-online.sk###easytarget3 > span > div
+film-serial-online.sk###easytarget4 > span > div
+film-serial-online.sk###easytarget5 > span > div
+film-serial-online.sk###easytarget6 > span > div
+film-serial-online.sk###easytarget7 > span > div
+film-serial-online.sk###easytarget8 > span > div
+film-serial-online.sk###easytarget9 > span > div
+film-serial-online.sk###easytarget10 > span > div
+film-serial-online.sk###easytarget11 > span > div
+film-serial-online.sk##script:contains(adblocker.html)
 opensubtitles.org##IMG[src*="data:image/jpeg;base64"]
 opensubtitles.org##IMG[src*="data:image/jpg;base64"]
 opensubtitles.org###ad1-placeholder
@@ -24998,6 +25755,11 @@ opensubtitles.org##script:contains(jQuery("time.timeago").timeago();)
 ||sktorrent.eu/torrent/images/banner*.gif
 ||sktorrent.eu/torrent/images/zamok/thumb.jpg
 ||e-posta.eu/banner/banner250x250.swf
+||sktorrent.eu/torrent/images/pokerarena/*.gif$image
+||sktorrent.eu/torrent/blackdot.gif$image
+||sktorrent.eu/torrent/images/sperkyvandama/*.jpg$image
+sktorrent.eu###interVeil
+sktorrent.eu###interContainer
 sktorrent.eu###mini-notification
 ||playing.flashx.tv*/player_embed.js
 nosteam.ro###stickynote3
@@ -25031,6 +25793,8 @@ hentaisun.com##.row:nth-of-type(1) > .span12
 hentaisun.com##.clearfix.widget:nth-of-type(2) > .divider
 hentaisun.com##.clearfix.widget:nth-of-type(2)
 www.pathofexile.com##.clearfix.legacy.badges
+www.topserialy.to##.reklamasidebar1
+www.topserialy.to##.sidebar
 [Adblock Plus 2.0]
 /ad-
 /ad_
@@ -25124,6 +25888,7 @@ stream.nbcsports.com###nbc-content > .main-wrapper > .live-extra-promo
 ||pch.com###sfad-wrapper
 ||hearthis.at/_/images/partner/hear_this.jpg
 ||1001tracklists.com/images/labels/*_*-*.*
+||1001tracklists.com/images/*/campaigns/*
 ||1001tracklists.com###anonymous_element_1
 ||tempostorm*.com^/*/amazon.footer*
 ||healthmate.withings.com###mfp > .pulsePurchase
