@@ -3352,31 +3352,31 @@ aimgames.forummotion.com##.\34 40a.forumline
 ! Sat Aug 08 2015 : steamcommunity.com
 
 ! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com###sidepanel
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com###thread-header-bloglike
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com###navigation
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com##.showthread-subscribe.new-button[href^="subscription.php"]
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com##.page-showthread.page > .above-content-bar.showthread-abovebar-controls > .new-button
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com###showthreadRankedThreads
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com###footer
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com###prev-next
-
-! Sun Aug 09 2015 : forum.xda-developers.com
-forum.xda-developers.com##.title\=.new-button[href^="newreply.php"]
+!forum.xda-developers.com###sidepanel
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com###thread-header-bloglike
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com###navigation
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com##.showthread-subscribe.new-button[href^="subscription.php"]
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com##.page-showthread.page > .above-content-bar.showthread-abovebar-controls > .new-button
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com###showthreadRankedThreads
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com###footer
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com###prev-next
+!
+!! Sun Aug 09 2015 : forum.xda-developers.com
+!forum.xda-developers.com##.title\=.new-button[href^="newreply.php"]
 
 ! Sun Aug 09 2015 : www.designmaz.net
 www.designmaz.net##.container > .footer
@@ -6769,40 +6769,40 @@ gamerant.com##.social-list
 gamerant.com##.social-counter
 
 ! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##.et_social_sidebar_networks
-
-! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com###header_social_wrapper
-
-! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##a[href="http://forum.xda-developers.com/ad-free"]
-
-! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##.theiaStickySidebar > .widget.first.widget-1
+!www.xda-developers.com##.et_social_sidebar_networks
+!
+!! Thu May 26 2016 : www.xda-developers.com
+!www.xda-developers.com###header_social_wrapper
+!
+!! Thu May 26 2016 : www.xda-developers.com
+!www.xda-developers.com##a[href="http://forum.xda-developers.com/ad-free"]
+!
+!! Thu May 26 2016 : www.xda-developers.com
+!www.xda-developers.com##.theiaStickySidebar > .widget.first.widget-1
 
 ! Thu May 26 2016 : www.xda-developers.com
 ||www1-lw.xda-cdn.com/wp-content/uploads/*/*/labs-badge.gif$image
 
 ! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##.xda-more-link
+!www.xda-developers.com##.xda-more-link
 
 ! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##.clearfix.xda_swappa_widget.tb_widget_top_rated
-
-! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##.hosted_by
+!www.xda-developers.com##.clearfix.xda_swappa_widget.tb_widget_top_rated
+!
+!! Thu May 26 2016 : www.xda-developers.com
+!www.xda-developers.com##.hosted_by
 ||www1-lw.xda-cdn.com/files/2014/04/leaseweb_orig_175x50.png
 ||a.disquscdn.com/uploads/users/$image,important
 !||a.disquscdn.com/*/images/noavatar
 
 ! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com##.et_social_inline
+!www.xda-developers.com##.et_social_inline
 
 ! Thu May 26 2016 : www.xda-developers.com
 ||www1-lw.xda-cdn.com/wp-content/uploads/2014/04/labs-badge.gif$image
 
 ! Thu May 26 2016 : www.xda-developers.com
-www.xda-developers.com###footer
+!www.xda-developers.com###footer
 
 ! Thu May 26 2016 : disqus.com
 !||a.disquscdn.com/1464130545/images/noavatar92.png$image,important
