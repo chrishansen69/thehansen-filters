@@ -28,7 +28,7 @@ const remoteFiles = [
   'https://raw.githubusercontent.com/btgregory/uBlock-Supplementary-Blocklist/master/general_filters.txt',
   'https://raw.githubusercontent.com/btgregory/uBlock-Supplementary-Blocklist/master/cosmetic_filters.txt',
   'https://raw.githubusercontent.com/btgregory/uBlock-Supplementary-Blocklist/master/network_filters.txt',
-  'https://raw.githubusercontent.com/rafa1231518/thehansen-filters/master/stopmodreposts.txt',
+  'https://raw.githubusercontent.com/uwx/thehansen-filters/master/stopmodreposts.txt',
 ];
 
 fs.truncateSync('./Filters.txt');
