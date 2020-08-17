@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafa1231518/thehansen-filters.git"
+    "url": "git+https://github.com/uwx/thehansen-filters.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rafa1231518/thehansen-filters/issues"
+    "url": "https://github.com/uwx/thehansen-filters/issues"
   },
-  "homepage": "https://github.com/rafa1231518/thehansen-filters#readme"
+  "homepage": "https://github.com/uwx/thehansen-filters#readme"
 }
