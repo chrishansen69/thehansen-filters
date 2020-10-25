@@ -865,8 +865,8 @@ www.roblox.com###MessagesAdSkyscraper
 ! Mon Apr 20 2015 : www.roblox.com
 ||www.roblox.com/userads/
 
-! Mon Apr 20 2015 : rafa1231518.newgrounds.com
-rafa1231518.newgrounds.com###footer
+! Mon Apr 20 2015 : newgrounds.com
+newgrounds.com###footer
 
 ! Mon Apr 20 2015 : www.youtube.com
 www.youtube.com###movie_player > .ytp-iv-player-content.ytp-player-content > .iv-drawer-manager.html5-stop-propagation
